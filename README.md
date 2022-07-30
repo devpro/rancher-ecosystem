@@ -1,2 +1,3 @@
-# mastering-rancher
-Documentation, tutorials and samples to master Rancher, the Kubernetes management solution
+# Mastering Rancher
+
+You'll find here documentation, tutorials and samples to master [Rancher](https://rancher.com/), the Kubernetes management solution.
