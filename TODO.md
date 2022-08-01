@@ -10,3 +10,4 @@
 * [chrisurwin/rancher-rodeo](https://github.com/chrisurwin/rancher-rodeo)
 * [hieunt84/learn-rancher](https://github.com/hieunt84/learn-rancher)
 * [mariodavid/gitlab-rancher-example](https://github.com/mariodavid/gitlab-rancher-example)
+* [bashofmann/rancher-demo-setups](https://github.com/bashofmann/rancher-demo-setups)
