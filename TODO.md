@@ -1,0 +1,8 @@
+# To-Do list
+
+## Repositories
+
+* [dsohk/rancher-devsecops-workshop](https://github.com/dsohk/rancher-devsecops-workshop)
+* [jmreicha/awesome-rancher](https://github.com/jmreicha/awesome-rancher)
+* [oskapt/rancher-demo](https://github.com/oskapt/rancher-demo)
+* [rancher/quickstart/rancher][https://github.com/rancher/quickstart/tree/master/rancher)
