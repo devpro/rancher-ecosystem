@@ -4,6 +4,7 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 
 ## Content
 
+* [Applications](docs/apps.md)
 * [Cloud Providers](docs/cloud-providers.md)
 * [Fleet](docs/fleet.md)
 * [Getting started](docs/getting-started.md) ← good starting point
