@@ -1,0 +1,8 @@
+apiVersion: fleet.cattle.io/v1alpha1
+kind: GitRepo
+metadata:
+  name: guestbook-sample
+spec:
+  repo: "https://github.com/rancher/fleet-examples"
+  paths:
+    - simple
