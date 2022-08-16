@@ -8,7 +8,9 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 * [Cloud Providers](docs/cloud-providers.md)
 * [Fleet](docs/fleet.md)
 * [Getting started](docs/getting-started.md) ← good starting point
+* [Provisioning](docs/provisioning.md)
 * [Requirements](docs/requirements.md)
+* [Support](docs/support.md)
 
 ## References
 
