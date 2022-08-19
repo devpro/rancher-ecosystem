@@ -1,8 +1,12 @@
 # Getting started with Rancher
 
-Make sure your working environment meets the [requirements](requirements.md).
+## Overview
+
+* Look at [Rancher Architecture](https://rancher.com/docs/rancher/v2.6/en/overview/architecture/)
 
 ## Quick start
+
+⚠ Make sure your working environment meets the [requirements](requirements.md).
 
 This first installation starts with the official [rancher.com/quick-start](https://rancher.com/quick-start):
 

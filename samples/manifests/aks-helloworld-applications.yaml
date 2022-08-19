@@ -17,6 +17,13 @@ spec:
           image: mcr.microsoft.com/azuredocs/aks-helloworld:v1
           ports:
             - containerPort: 80
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
           env:
             - name: TITLE
               value: "Welcome to Azure Kubernetes Service (AKS)"
@@ -51,6 +58,13 @@ spec:
           image: mcr.microsoft.com/azuredocs/aks-helloworld:v1
           ports:
             - containerPort: 80
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
           env:
             - name: TITLE
               value: "AKS Ingress Demo"
