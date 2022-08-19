@@ -10,12 +10,13 @@ CERT_MANAGER_VERSION=v1.9.1
 RANCHER_VERSION=2.6.7
 RANCHER_HOSTNAME=rancher.demo
 RANCHER_BOOTSTRAP_ADMIN=R@ncherR0ck$
+AZURE_LOCATION=westeurope
 
 # MANUAL: authenticates
 az login
 
 # creates resource group
-az group create --name rg-${RESOURCE_PREFIX} --location westeurope
+az group create --name rg-${RESOURCE_PREFIX} --location ${AZURE_LOCATION}
 
 # create AKS resource (Kubernetes cluster managed by Azure)
 az aks create \
@@ -75,3 +76,6 @@ curl https://rancher.demo
 helm list -A
 # OPTIONAL: remove Rancher
 helm uninstall rancher --namespace cattle-system
+
+# cleans up
+az group delete --name rg-${RESOURCE_PREFIX} --yes --no-wait
