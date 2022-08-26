@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # sets parameters
-RESOURCE_PREFIX=bthomas-rancher1
+RESOURCE_PREFIX=bthomas-ranch220825
 KUBERNETES_VERSION=v1.23.8
-NODE_COUNT=3
+NODE_COUNT=2
 VM_SIZE=Standard_D2_v2
 NGINX_INGRESS_VERSION=4.2.1
 CERT_MANAGER_VERSION=v1.9.1
-RANCHER_VERSION=2.6.7
+RANCHER_VERSION=2.6.5
 RANCHER_HOSTNAME=rancher.demo
 RANCHER_BOOTSTRAP_ADMIN=R@ncherR0ck$
 AZURE_LOCATION=westeurope
@@ -28,6 +28,7 @@ az aks create \
 
 # adds cluster credentials to local kubectl config
 az aks get-credentials --resource-group rg-${RESOURCE_PREFIX} --name aks-${RESOURCE_PREFIX}
+chmod 600 ~/.kube/config
 
 # installs NGINX Ingress Controller with Helm
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
@@ -39,7 +40,7 @@ helm upgrade --install ingress-nginx ingress-nginx/ingress-nginx \
   --create-namespace
 # MANUAL: wait until External IP is set
 kubectl get service ingress-nginx-controller --namespace=ingress-nginx
-# MANUAL: edit your local host file with a line "EXTERNAL_IP RANCHER_HOSTNAME"
+# MANUAL: edit your local hosts file with a line "EXTERNAL_IP RANCHER_HOSTNAME"
 
 # installs cert-manager (https://cert-manager.io/) with Helm (https://cert-manager.io/docs/installation/helm/)
 helm repo add jetstack https://charts.jetstack.io
@@ -56,20 +57,22 @@ kubectl get pods --namespace cert-manager
 # installs Rancher with Helm with Rancher-generated certificate
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 helm repo update
+# OPTIONAL: review Kubernetes objects
+# helm template --validate rancher rancher-latest/rancher --namespace cattle-system --set hostname=${RANCHER_HOSTNAME} --set bootstrapPassword=${RANCHER_BOOTSTRAP_ADMIN} --version ${RANCHER_VERSION} > temp.yaml
 kubectl create namespace cattle-system
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
   --set hostname=${RANCHER_HOSTNAME} \
   --set bootstrapPassword=${RANCHER_BOOTSTRAP_ADMIN} \
-  --version ${RANCHER_VERSION} \
-  --set ingress.ingressClassName=nginx # new to 2.6.7
+  --version ${RANCHER_VERSION}
+  # --set ingress.ingressClassName=nginx # new to 2.6.7
 # MANUAL: waits for the deployment to complete
 kubectl -n cattle-system rollout status deploy/rancher
 # OPTIONAL: retrieves the admin password
 kubectl get secret --namespace cattle-system bootstrap-secret -o go-template='{{.data.bootstrapPassword|base64decode}}{{ "\n" }}'
+# MANUAL: with Rancher < 2.6.7, edit the rancher ingress object to add "ingressClassName: nginx" under "spec"
 # OPTIONAL: makes sure Rancher ingress has a public IP
 kubectl get ingress -A
-# MANUAL: if no ingress class name / public IP, edit the rancher ingress object to add "ingressClassName: nginx" under "spec"
 # makes sure Rancher UI is available
 curl https://rancher.demo
 # OPTIONAL: lists installed Helm charts

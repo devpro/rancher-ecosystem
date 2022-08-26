@@ -12,6 +12,7 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 * [Networking](docs/networking.md)
 * [Provisioning](docs/provisioning.md)
 * [Requirements](docs/requirements.md)
+* [RKE2](docs/rke2.md)
 * [Support](docs/support.md)
 
 ## References
