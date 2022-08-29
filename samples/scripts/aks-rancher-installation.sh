@@ -77,6 +77,10 @@ kubectl get ingress -A
 curl https://rancher.demo
 # OPTIONAL: lists installed Helm charts
 helm list -A
+
+# MANUAL: edit Public IP adress Azure resource (Configuration) to set a DNS name label, for example rancher-demo(.westeurope.cloudapp.azure.com), update the server-url in Rancher > Global Settings
+kubectl edit ingress rancher -n cattle-system
+
 # OPTIONAL: remove Rancher
 helm uninstall rancher --namespace cattle-system
 

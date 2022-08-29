@@ -4,6 +4,12 @@
 
 → [docs](https://docs.rke2.io/)
 
+## Architecture
+
+![Architecture Overview](https://docs.rke2.io/architecture/overview.png)
+
+→ [docs/architecture](https://docs.rke2.io/architecture/architecture/)
+
 ## Installation
 
 ### Azure VM
