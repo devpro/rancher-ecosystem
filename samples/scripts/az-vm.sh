@@ -40,6 +40,9 @@ az vm show --name ${VM_NAME} --resource-group ${RG_NAME}
 # updates the network interface
 az vm update -n ${VM_NAME} -g ${RG_NAME} --set networkProfile.networkInterfaces[0].deleteOption=Delete
 
+# OPTIONAL: enables auto-shutdown
+az vm auto-shutdown -g ${RG_NAME} -n ${VM_NAME} --time 2030 --email "bertrand.thomas@suse.com"
+
 # OPTIONAL: open ports
 az vm open-port -g ${RG_NAME} -n ${VM_NAME} --name RKE2_ports --port 6443,9345 --priority 100
 

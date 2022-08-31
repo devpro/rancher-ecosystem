@@ -8,7 +8,7 @@
 
 ⚠ Make sure your working environment meets the [requirements](requirements.md).
 
-This first installation starts with the official [rancher.com/quick-start](https://rancher.com/quick-start):
+This first installation starts with the official [rancher.com/quick-start](https://rancher.com/quick-start).
 
 * Run Rancher locally with Docker (see official documentation [Installing Rancher on a Single Node Using Docker](https://rancher.com/docs/rancher/v2.6/en/installation/other-installation-methods/single-node-docker/))
 
