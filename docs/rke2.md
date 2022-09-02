@@ -28,6 +28,8 @@
 
 * Follow the [Quick Start](https://docs.rke2.io/install/quickstart/), see the [example script](../samples/scripts/az-rke2.sh)
 
+* Once created and running fine, import the cluster in Rancher, execute the command line to register the cluster and make sure the agent is running fine and the cluster can be seen in Rancher
+
 ### Helm chart installed
 
 NAME                | NAMESPACE   | CHART                                        | APP VERSION

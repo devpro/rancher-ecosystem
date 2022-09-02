@@ -5,12 +5,14 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 ## Content
 
 * [Applications](docs/apps.md)
+* [Authentication](docs/authentication.md)
 * [Cloud Providers](docs/cloud-providers.md)
 * Continuous Deployment
   * [Fleet](docs/fleet.md)
 * [Getting started](docs/getting-started.md) ← good starting point
 * [Installation](docs/installation.md)
-* Kubernetes Engines
+* Kubernetes distributions
+  * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
 * [Networking](docs/networking.md)
@@ -18,6 +20,7 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 * [Provisioning](docs/provisioning.md)
 * [Requirements](docs/requirements.md)
 * [Security](docs/security.md)
+  * [NeuVector](docs/neuvector.md)
 * [Support](docs/support.md)
 
 ## References

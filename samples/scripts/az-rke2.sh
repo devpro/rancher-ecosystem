@@ -30,7 +30,7 @@ sudo cat /var/lib/rancher/rke2/server/node-token
 # installs RKE2 on the worker node
 curl -sfL https://get.rke2.io | INSTALL_RKE2_TYPE="agent" sudo sh -
 # enables the rke2-agent service
-systemctl enable rke2-agent.service
+sudo systemctl enable rke2-agent.service
 # configures the rke2-agent service
 sudo mkdir -p /etc/rancher/rke2/
 sudo cat << \EOF | sudo tee /etc/rancher/rke2/config.yaml
