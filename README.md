@@ -1,5 +1,7 @@
 # Mastering Rancher
 
+[![Pages](https://github.com/devpro/mastering-rancher/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/mastering-rancher/actions/workflows/pages.yml)
+
 You'll find here documentation, tutorials and samples to master [Rancher](https://rancher.com/), the Kubernetes management solution.
 
 ## Content
@@ -11,6 +13,8 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
   * [Fleet](docs/fleet.md)
 * [Getting started](docs/getting-started.md) ← good starting point
 * [Installation](docs/installation.md)
+* Infrastructure
+  * [Harvester](docs/harvester.md)
 * Kubernetes distributions
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
@@ -21,6 +25,8 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 * [Requirements](docs/requirements.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
+* Storage
+  * [Longhorn](docs/longhorn.md)
 * [Support](docs/support.md)
 
 ## References

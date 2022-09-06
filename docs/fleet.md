@@ -6,6 +6,8 @@
 
 → [fleet.rancher.io](https://fleet.rancher.io/), [GitHub](https://github.com/rancher/fleet)
 
+Read more: [Scaling Fleet and Kubernetes to a Million Clusters](https://www.suse.com/c/rancher_blog/scaling-fleet-and-kubernetes-to-a-million-clusters/)
+
 ## Quick start
 
 ### Install Fleet objects in your Kubernetes cluster
