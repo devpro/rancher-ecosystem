@@ -10,6 +10,17 @@
 
 → [docs/architecture](https://docs.rke2.io/architecture/architecture/)
 
+## Components
+
+* containerd
+* etcd
+* NGINX Ingress Controller
+* Canal
+
+## Features
+
+* [Cluster Autoscaler for Rancher with RKE2](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler/cloudprovider/rancher)
+
 ## Installation
 
 ### Azure VM

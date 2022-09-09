@@ -15,7 +15,7 @@ You'll find here documentation, tutorials and samples to master [Rancher](https:
 * [Installation](docs/installation.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
-* Kubernetes distributions
+* [Kubernetes distributions](docs/k8s-distro.md)
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
