@@ -51,8 +51,8 @@
 
 ## Tools
 
-* [NeuVector](neuvector.md)
 * [OpenSCAP](https://www.open-scap.org/)
+* [SUSE NeuVector](neuvector.md)
 
 ## Training
 

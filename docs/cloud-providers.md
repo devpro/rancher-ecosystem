@@ -43,7 +43,7 @@ Then, in Rancher add the newly created credentials.
     }
     ```
 
-    * Under `Cluster Configuration` > `Advanced section`, click `Add` under `Additional Controller Manager Args` and add the flag `--configure-cloud-routes=false`
+    * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false`
 
 ### Azure Tips
 
