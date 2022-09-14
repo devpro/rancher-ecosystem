@@ -21,6 +21,9 @@
 * Security-as-Code for replicating Zero-Trust Segmentation
   * [neuvector.com/videos](https://neuvector.com/videos/the-neuvector-minute-security-policy-as-code/)
 
+* Protect data with Data Loss Prevention (DLP)
+  * [How to Protect Sensitive Data in Containers with Container DLP](https://blog.neuvector.com/article/protect-sensitive-data-with-container-dlp)
+
 ## Training
 
 * [NeuVector Youtube channel](https://www.youtube.com/channel/UCpAoVOdUS0i7T92cszeRVoQ)
