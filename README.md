@@ -1,6 +1,6 @@
 # Rancher World
 
-[![Pages](https://github.com/devpro/mastering-rancher/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/mastering-rancher/actions/workflows/pages.yml)
+[![Pages](https://github.com/devpro/rancher-world/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/rancher-world/actions/workflows/pages.yml)
 
 You'll find here documentation about [Rancher](https://rancher.com/), the free open-source Kubernetes management solution, and all related components.
 
