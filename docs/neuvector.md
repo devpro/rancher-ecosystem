@@ -24,10 +24,15 @@
 * Protect data with Data Loss Prevention (DLP)
   * [How to Protect Sensitive Data in Containers with Container DLP](https://blog.neuvector.com/article/protect-sensitive-data-with-container-dlp)
 
+* Service Mesh integration
+  * [How to Secure Containers in a Service Mesh such as Istio and Linkerd2](https://neuvector.com/videos/secure-containers-in-service-mesh-istio/)
+
 ## Training
 
 * [NeuVector Youtube channel](https://www.youtube.com/channel/UCpAoVOdUS0i7T92cszeRVoQ)
-  * [NeuVector-101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
+  * [NeuVector - 101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
+  * [NeuVector Minute - Installing NeuVector on Rancher](https://www.youtube.com/watch?v=cc8nA7nxuDc) - Nov 12, 2020
+  * [Zero-Trust Security for Kubernetes and Container Workloads](https://www.youtube.com/watch?v=SzNbJ7W3Mik) - March 29, 2022
 
 ## Architecture
 
