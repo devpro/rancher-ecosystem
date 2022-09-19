@@ -58,3 +58,7 @@
 
 * A Cloud Guru
   * [Kubernetes Security](https://learn.acloud.guru/course/7d2c29e7-cdb2-4f44-8744-06332f47040e/dashboard)
+
+## Additional ressources
+
+* [The Open Cloud Vulnerability & Security Issue Database](https://www.cloudvulndb.org/)
