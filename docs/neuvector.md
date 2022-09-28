@@ -2,7 +2,7 @@
 
 > NeuVector delivers Full Lifecycle Container Security with the only cloud-native, Kubernetes security platform providing end-to-end vulnerability management, automated CI/CD pipeline security, and complete run-time security including the industry’s only container firewall to protect your infrastructure from zero days and insider threats.
 
-→ [neuvector.com](https://neuvector.com/) ([docs](https://docs.neuvector.com/), [GitHub](https://github.com/neuvector/neuvector))
+→ [neuvector.com](https://neuvector.com/) ([docs](https://docs.neuvector.com/), [GitHub](https://github.com/neuvector/neuvector), [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf))
 
 ## Features
 
@@ -27,7 +27,9 @@
 * Service Mesh integration
   * [How to Secure Containers in a Service Mesh such as Istio and Linkerd2](https://neuvector.com/videos/secure-containers-in-service-mesh-istio/)
 
-## Training
+## Trainings
+
+* NeuVector Rodeo
 
 * [NeuVector Youtube channel](https://www.youtube.com/channel/UCpAoVOdUS0i7T92cszeRVoQ)
   * [NeuVector - 101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
@@ -40,10 +42,13 @@
 
 * Controller
   * Manage policies REST API
+
 * Scanner
+
 * Web UI
   * Manager User Interface
   * CLI tool
+
 * Enforcer (DaemonSet)
   * Enforce Securities Policies
   * Inspect Network Traffic
@@ -59,6 +64,12 @@
 * CRD updates
 * Enhanced Rancher Integration
 * Automated promotion of group nodes
+
+## Scanning
+
+### GitLab
+
+* [Scan for Vulnerabilities during Gitlab Build Pipeline](https://docs.neuvector.com/scanning/build/gitlab)
 
 ## Installation
 
@@ -87,3 +98,32 @@
 * Once installed correctly (all pods running fine), go to Service Discovery > Ingresses
   * In `cattle-neuvector-system` namespace, click on the target link
   * Log in with admin/admin and update immediatly the password
+
+## Q&A
+
+Question | Answer
+-------- | ------
+It is possible to export reports and scans in pdf and automate the creation sending them via email for example? | Yes, this could be done by leveraging the API
+Tt is possible to customize login UI? | No?
+Must NeuVector be installed into each working cluster or is it possible to have one central NeuVector cluster and route to it from each downstream cluster? | The components such as the scanner, enforcer, etc. must be installed in each cluster but you can federate clusters together so there's a single UI to manage multiple clusters
+Can we "ignore/silence" a vulnerability so it doesn't show in the reporting? | You can "accept" vulnerabilities that negate them coming up in reports/alerts, reports can also filter out vulnerabilities with (for example) a low CVE score, No fix, etc. so you could generate a list of all known CVE's in your environment, filter by no fix and then bulk accept those
+How much of a performance overhead is the enforcer? | This is documented in the [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf) at point 2
+
+## Known issues
+
+* Timeout while on the web interface
+  * Refresh the page and authenticate again
+
+## Recipes
+
+### How to scan control plane nodes
+
+By default, only worker nodes are scanned. You can change this by adapting the tolerations of the enforcer when installing NeuVector. The default can be seen in [values.yaml](https://github.com/neuvector/neuvector-helm/blob/master/charts/core/values.yaml) (enforcer / tolerations). Depending on the Kubernetes distribution, the taints may be different on non-worker nodes.
+
+To tolerate all possible taints, a config would be:
+
+```yaml
+enforcer:
+  tolerations:
+    - operator: "Exists"
+```

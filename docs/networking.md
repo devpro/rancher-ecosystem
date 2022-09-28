@@ -9,12 +9,15 @@
 * [CNI Providers](https://rancher.com/docs/rancher/v2.6/en/faq/networking/cni-providers/)
 * [Troubleshooting](https://rancher.com/docs/rancher/v2.6/en/troubleshooting/networking/)
 * [Rancher Nodes Ports](https://rancher.com/docs/rancher/v2.6/en/installation/requirements/ports/)
+* Knowledge base
+  * [Will Rancher fix the issue and release a patch, if the problem is root-caused in one of the Rancher 2.x CNI plugin add-ons such as Weave, Cisco ACI, Cilium, and Calico?](https://www.suse.com/support/kb/doc/?id=000020468)
 
 ## Cisco ACI (Application Centric Infrastructure)
 
 * [Cisco ACI for Data Center](https://www.cisco.com/c/en/us/solutions/data-center-virtualization/application-centric-infrastructure/index.html)
 * [Cisco ACI and Rancher Integration](https://www.cisco.com/c/en/us/td/docs/dcn/aci/containers/cisco-aci-and-rancher-integration.html)
 * [RKE Cluster Configuration Reference > Project Network Isolation](https://rancher.com/docs/rancher/v2.6/en/cluster-admin/editing-clusters/rke-config-reference/#project-network-isolation)
+* [ACI Virtualization Compatibility Matrix](https://www.cisco.com/c/dam/en/us/td/docs/Website/datacenter/aci/virtualization/matrix/virtmatrix.html)
 
 ## VMware NSX-T
 
