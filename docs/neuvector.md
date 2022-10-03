@@ -27,6 +27,9 @@
 * Service Mesh integration
   * [How to Secure Containers in a Service Mesh such as Istio and Linkerd2](https://neuvector.com/videos/secure-containers-in-service-mesh-istio/)
 
+* Automation
+  * [REST API and Automation](https://open-docs.neuvector.com/automation/automation)
+
 ## Trainings
 
 * NeuVector Rodeo
@@ -104,7 +107,7 @@
 Question | Answer
 -------- | ------
 It is possible to export reports and scans in pdf and automate the creation sending them via email for example? | Yes, this could be done by leveraging the API
-Tt is possible to customize login UI? | No?
+Tt is possible to customize login UI? | The name can be changed but no other customization for the moment (a feature request has been created to cover this part)
 Must NeuVector be installed into each working cluster or is it possible to have one central NeuVector cluster and route to it from each downstream cluster? | The components such as the scanner, enforcer, etc. must be installed in each cluster but you can federate clusters together so there's a single UI to manage multiple clusters
 Can we "ignore/silence" a vulnerability so it doesn't show in the reporting? | You can "accept" vulnerabilities that negate them coming up in reports/alerts, reports can also filter out vulnerabilities with (for example) a low CVE score, No fix, etc. so you could generate a list of all known CVE's in your environment, filter by no fix and then bulk accept those
 How much of a performance overhead is the enforcer? | This is documented in the [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf) at point 2
