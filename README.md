@@ -19,6 +19,8 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
+* Learning platforms
+  * [HobbyFarm](docs/hobbyfarm.md)
 * [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
 * [Provisioning](docs/provisioning.md)
