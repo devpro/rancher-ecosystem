@@ -21,6 +21,13 @@
 
 * [Cluster Autoscaler for Rancher with RKE2](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler/cloudprovider/rancher)
 
+## Recipes
+
+### Migration from RKE1 to RKE2
+
+* [Issue #562](https://github.com/rancher/rke2/issues/562)
+* [rancher/migration-agent](https://github.com/rancher/migration-agent)
+
 ## Installation
 
 ### Azure VM

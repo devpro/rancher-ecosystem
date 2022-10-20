@@ -29,8 +29,10 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [NeuVector](docs/neuvector.md)
 * Storage
   * [Longhorn](docs/longhorn.md)
+* System
+  * [Elemental](docs/elemental.md)
 * [Support](docs/support.md)
 
 ## References
 
-* [rancher.com/docs](https://rancher.com/docs/rancher/v2.6/en/)
+* [rancher.com/docs](https://docs.ranchermanager.rancher.io/)

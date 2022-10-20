@@ -2,6 +2,10 @@
 
 ## Azure
 
+### Azure best practices
+
+* Follow [Naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+
 ### Azure Cloud credentials
 
 In order to authenticate and authorize actions against Azure, you need to create an Azure Active Directory (AD) application. It can be done through the web UI (portal) or the command line.
@@ -43,7 +47,7 @@ Then, in Rancher add the newly created credentials.
     }
     ```
 
-    * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false`
+    * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false` (see [Rancher issue #34367](https://github.com/rancher/rancher/issues/34367))
 
 ### Azure Tips
 
