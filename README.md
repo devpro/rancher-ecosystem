@@ -8,7 +8,6 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
 
 * [Applications](docs/apps.md)
 * [Authentication](docs/authentication.md)
-* [Cloud Providers](docs/cloud-providers.md)
 * Continuous Deployment
   * [Fleet](docs/fleet.md)
 * [Getting started](docs/getting-started.md) ← good starting point
@@ -24,6 +23,11 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
 * [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
 * [Provisioning](docs/provisioning.md)
+  * [3DS Outscale](docs/providers/3ds-outscale.md)
+  * [Amazon AWS](docs/providers/amazon-aws.md)
+  * [Google GCP](docs/providers/google-gcp.md)
+  * [Microsoft Azure](docs/providers/microsoft-azure.md)
+  * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Requirements](docs/requirements.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)

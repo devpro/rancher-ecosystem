@@ -4,7 +4,7 @@
 
 * Look at [Rancher Architecture](https://rancher.com/docs/rancher/v2.6/en/overview/architecture/)
 
-## Quick start
+## Quick run
 
 ⚠ Make sure your working environment meets the [requirements](requirements.md).
 
@@ -44,3 +44,7 @@ sudo docker logs local_rancher 2>&1 | grep "Bootstrap Password:"
     ```bash
     helm list --all-namespaces
     ```
+
+## Quick starts
+
+* [Quickstart examples for the SUSE Rancher product portfolio](https://github.com/rancher/quickstart)

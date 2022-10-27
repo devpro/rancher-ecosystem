@@ -2,12 +2,30 @@
 
 ## Documentation
 
-* [Cluster Management Resources](https://github.com/rancher/dashboard/blob/master/docs/developer/cluster-management-resources.md)
+* [Cluster Management Resources](https://github.com/rancher/dashboard/blob/master/docusaurus/docs/code-base-works/cluster-management-resources.md)
 
 ## Infrastructure providers
 
-### VMware vSphere
+### 3DS OUTSCALE
 
-🛈 [vSphere](https://www.vmware.com/products/vsphere.html) is VMware's "Enterprise Workload Platform". It is a virtualization platform, that includes vCenter Configuration Manager, vCenter Application Discovery Manager and vMotion
+* [OUTSCALE Cloud](./providers/3ds-outscale.md)
 
-* [Creating a vSphere Cluster](https://rancher.com/docs/rancher/v2.6/en/cluster-provisioning/rke-clusters/node-pools/vsphere/)
+### Amazon
+
+* [AWS](./providers/amazon-aws.md)
+
+### Google
+
+* [GCP](./providers/google-gcp.md)
+
+### Microsoft
+
+* [Aure](./providers/microsoft-azure.md)
+
+### Nutanix
+
+TODO
+
+### VMware
+
+* [vSphere](./providers/wmware-vsphere.md)
