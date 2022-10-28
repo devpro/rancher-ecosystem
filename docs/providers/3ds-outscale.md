@@ -5,6 +5,7 @@
 * [outscale.com](https://outscale.com/)
 * [Twitter](https://twitter.com/outscale)
 * [LinkedIn](https://www.linkedin.com/company/outscale/)
+* GitHub organization: [Outscale Developers](https://github.com/outscale-dev)
 
 ## Documentation
 
@@ -12,8 +13,6 @@
 * [API](https://docs.outscale.com/api)
 
 ## Open source
-
-Contributions can be found in [Outscale Developers](https://github.com/outscale-dev) GitHub organization.
 
 ### Kubernetes integration
 
