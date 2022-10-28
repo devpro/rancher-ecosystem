@@ -13,12 +13,32 @@
 
 ## Open source
 
-### GitHub projects
+Contributions can be found in [Outscale Developers](https://github.com/outscale-dev) GitHub organization.
 
-* [Outscale Developers](https://github.com/outscale-dev)
-  * Outscale Cloud Controller Manager ([GitHub](https://github.com/outscale-dev/cloud-provider-osc))
-  * Outscale Block Storage Unit CSI driver ([GitHub](https://github.com/outscale-dev/osc-bsu-csi-driver))
-  * Kubernetes Cluster With RKE On Outscale Cloud ([GitHub](https://github.com/outscale-dev/osc-k8s-rke-cluster))
-  * Kubernetes Cluster Api Provider Outscale ([Kubernetes Cluster Api Provider Outscale](https://github.com/outscale-dev/cluster-api-provider-outscale))
-  * Outscale Driver plugin for docker-machine ([GitHub](https://github.com/outscale-dev/docker-machine-driver-outscale))
-  * [Terraform Provider](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs) ([GitHub](https://github.com/outscale-dev/terraform-provider-outscale))
+### Kubernetes integration
+
+#### CCM (Cloud Controller Manager)
+
+* [outscale-dev/cloud-provider-osc](https://github.com/outscale-dev/cloud-provider-osc)
+
+#### BSU (Block Storage Unit) Container Storage Interface (CSI) driver
+
+* [outscale-dev/osc-bsu-csi-driver](https://github.com/outscale-dev/osc-bsu-csi-driver)
+
+#### CAPI (Cluster API) provider
+
+* [outscale-dev/cluster-api-provider-outscale](https://github.com/outscale-dev/cluster-api-provider-outscale)
+
+#### Rancher Kuberner Engine (RKE) deployment
+
+* [Kubernetes Cluster With RKE On Outscale Cloud](https://github.com/outscale-dev/osc-k8s-rke-cluster)
+
+### Docker machine plugin
+
+* [outscale-dev/docker-machine-driver-outscale](https://github.com/outscale-dev/docker-machine-driver-outscale)
+* [Using DockerMachine with 3DS OUTSCALE](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html)
+
+### Terraform provider
+
+* [outscale-dev/terraform-provider-outscale](https://github.com/outscale-dev/terraform-provider-outscale)
+* [OUTSCALE Provider](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs)

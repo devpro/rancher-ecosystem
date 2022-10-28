@@ -2,7 +2,9 @@
 
 ## Best practices
 
-* Follow [Naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+* Follow the [naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+
+![Diagram of the components of an Azure resource name](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/resource-naming.png)
 
 ## Cloud credentials
 
