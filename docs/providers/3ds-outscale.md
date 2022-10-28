@@ -7,12 +7,12 @@
 * [LinkedIn](https://www.linkedin.com/company/outscale/)
 * GitHub organization: [Outscale Developers](https://github.com/outscale-dev)
 
-## Documentation
+## Technical documentation
 
 * [User Guide](https://docs.outscale.com/userguide)
 * [API](https://docs.outscale.com/api)
 
-## Open source
+## Open source projects
 
 ### Kubernetes integration
 
@@ -31,6 +31,10 @@
 #### Rancher Kuberner Engine (RKE) deployment
 
 * [Kubernetes Cluster With RKE On Outscale Cloud](https://github.com/outscale-dev/osc-k8s-rke-cluster)
+
+### Rancher Quickstart
+
+* [rancher/quickstart/rancher/outscale](https://github.com/rancher/quickstart/tree/master/rancher/outscale)
 
 ### Docker machine plugin
 
