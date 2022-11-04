@@ -28,6 +28,11 @@
 * [Issue #562](https://github.com/rancher/rke2/issues/562)
 * [rancher/migration-agent](https://github.com/rancher/migration-agent)
 
+### Windows Clusters support
+
+* [Launching Kubernetes on Windows Clusters](https://docs.ranchermanager.rancher.io/pages-for-subheaders/use-windows-clusters)
+* [Create a Windows HostProcess Pod](https://kubernetes.io/docs/tasks/configure-pod-container/create-hostprocess-pod/)
+
 ## Installation
 
 ### Azure VM

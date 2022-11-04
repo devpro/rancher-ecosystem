@@ -6,7 +6,7 @@
 
 ## Documentation
 
-* [CNI Providers](https://rancher.com/docs/rancher/v2.6/en/faq/networking/cni-providers/)
+* [Container Network Interface (CNI) Providers](https://rancher.com/docs/rancher/v2.6/en/faq/networking/cni-providers/)
 * [Troubleshooting](https://rancher.com/docs/rancher/v2.6/en/troubleshooting/networking/)
 * [Rancher Nodes Ports](https://rancher.com/docs/rancher/v2.6/en/installation/requirements/ports/)
 * Knowledge base
