@@ -81,7 +81,7 @@
 * In Rancher, from your cluster, go to Apps > Charts and look for NeuVector and click on Install
 * In Step 2 > Edit Options
   * In Container Runtime, make sure you select the right runtime (containerd for instance with AKS)
-  * In Ingress Configuration, check the Manager Ingress Status box, fille Manager Ingress Host (neuvector.demo for example)
+  * In Ingress Configuration, check the Manager Ingress Status box, fill Manager Ingress Host (neuvector.demo for example)
 * In Step 2 > Edit YAML, edit the content to add ingressClassName
 
   ```bash
