@@ -1,5 +1,10 @@
 # Microsoft Azure
 
+## Rancher installation on AKS (Azure Kubernetes Service)
+
+* [Installing Rancher on AKS](https://rancher.com/docs/rancher/v2.6/en/installation/resources/k8s-tutorials/aks/)
+  * [samples/scripts/aks-rancher-installation.sh](../samples/scripts/aks-rancher-installation.sh)
+
 ## Best practices
 
 * Follow the [naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)

@@ -6,12 +6,8 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
 
 ## Content
 
-* [Applications](docs/apps.md)
-* [Authentication](docs/authentication.md)
-* Continuous Deployment
+* Continuous Deployment (GitOps)
   * [Fleet](docs/fleet.md)
-* [Getting started](docs/getting-started.md) ← good starting point
-* [Installation](docs/installation.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
 * [Kubernetes distributions](docs/k8s-distro.md)
@@ -27,7 +23,14 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [Amazon AWS](docs/providers/amazon-aws.md)
   * [Google GCP](docs/providers/google-gcp.md)
   * [Microsoft Azure](docs/providers/microsoft-azure.md)
+  * [Nutanix](docs/providers/nutanix.md)
   * [VMware vSphere](docs/providers/wmware-vsphere.md)
+* Rancher
+  * [Applications](docs/rancher-apps.md)
+  * [Authentication](docs/rancher-authentication.md)
+  * [Getting started](docs/getting-started.md) ← good starting point
+  * [Installation](docs/rancher-installation.md)
+  * [Integrations](docs/rancher-integrations.md)
 * [Requirements](docs/requirements.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
