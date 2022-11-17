@@ -1,17 +1,33 @@
 # Microsoft Azure
 
-## Rancher installation on AKS (Azure Kubernetes Service)
+## Getting started
+
+### Ressources
+
+Name                               | Type
+-----------------------------------|------------------------------
+**AKS** (Azure Kubernetes Service) | Kubernetes cluster management
+
+### Best practices
+
+* [Azure resource naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
+
+![Diagram of the components of an Azure resource name](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/resource-naming.png)
+
+### Tips
+
+* When creating an Azure VM from Azure, the default Linux Admin username is `azureuser`
+
+## Usecases
+
+### Install Rancher on AKS
 
 * [Installing Rancher on AKS](https://rancher.com/docs/rancher/v2.6/en/installation/resources/k8s-tutorials/aks/)
   * [samples/scripts/aks-rancher-installation.sh](../samples/scripts/aks-rancher-installation.sh)
 
-## Best practices
+### Provision AKS from Rancher
 
-* Follow the [naming convention](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming)
-
-![Diagram of the components of an Azure resource name](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/_images/ready/resource-naming.png)
-
-## Cloud credentials
+#### Cloud credentials
 
 In order to authenticate and authorize actions against Azure, you need to create an Azure Active Directory (AD) application. It can be done through the web UI (portal) or the command line.
 
@@ -23,7 +39,7 @@ Then, in Rancher add the newly created credentials.
 
 * Create a new Azure Cloud Credential in Rancher
 
-## Kubernetes cluster creation from Rancher
+#### AKS Kubernetes cluster creation from Rancher
 
 * In `Cluster Management`, click on `Create` (it will the provider selection page)
   * Under `Provision new nodes and create a cluster using RKE2/K3s` (make sure `RKE2/K3s` is checked), click on `Azure` (it will open the `Cluster: Create Azure` form)
@@ -54,11 +70,9 @@ Then, in Rancher add the newly created credentials.
 
     * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false` (see [Rancher issue #34367](https://github.com/rancher/rancher/issues/34367))
 
-## Tips
+### Use Azure VM as Kubernetes nodes
 
-* When creating an Azure VM from Azure, the default Linux Admin username is `azureuser`
-
-## Ingress Controller in a Kubernetes cluster with Azure VM nodes
+#### Ingress Controller in a Kubernetes cluster with Azure VM nodes
 
 ```bash
 # installs with helm (see https://kubernetes.github.io/ingress-nginx/deploy/)
