@@ -55,6 +55,10 @@
 
 * Once created and running fine, import the cluster in Rancher, execute the command line to register the cluster and make sure the agent is running fine and the cluster can be seen in Rancher
 
+### Cluster API
+
+* [Cluster API Provider RKE2](https://github.com/rancher-sandbox/cluster-api-provider-rke2)
+
 ### Helm chart installed
 
 NAME                | NAMESPACE   | CHART                                        | APP VERSION

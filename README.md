@@ -18,6 +18,8 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [HobbyFarm](docs/hobbyfarm.md)
 * [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
+* Packaging
+  * [Hypper](docs/hypper.md)
 * [Provisioning](docs/provisioning.md)
   * [3DS Outscale](docs/providers/3ds-outscale.md)
   * [Amazon AWS](docs/providers/amazon-aws.md)
