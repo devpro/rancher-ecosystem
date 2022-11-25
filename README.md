@@ -8,6 +8,8 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
 
 * Continuous Deployment (GitOps)
   * [Fleet](docs/fleet.md)
+* Desktop
+  * [Rancher Desktop](docs/rancher-desktop.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
 * [Kubernetes distributions](docs/k8s-distro.md)
@@ -33,7 +35,6 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [Getting started](docs/getting-started.md) ← good starting point
   * [Installation](docs/rancher-installation.md)
   * [Integrations](docs/rancher-integrations.md)
-* [Requirements](docs/requirements.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
 * Storage
