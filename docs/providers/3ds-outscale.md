@@ -49,9 +49,9 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide).
 
 ## Open-source projects
 
-Projets are managed in [Outscale Developers](https://github.com/outscale-dev) GitHub organization.
+### Outscale projects
 
-### Kubernetes integration
+Projets are managed in [outscale-dev](https://github.com/outscale-dev) GitHub organization.
 
 #### CCM (Cloud Controller Manager)
 
@@ -63,25 +63,27 @@ Projets are managed in [Outscale Developers](https://github.com/outscale-dev) Gi
 
 #### CAPI (Cluster API) provider
 
-* [outscale-dev/cluster-api-provider-outscale](https://github.com/outscale-dev/cluster-api-provider-outscale)
+* [outscale-dev/cluster-api-provider-outscale](https://github.com/outscale-dev/cluster-api-provider-outscale) ([docs](https://cluster-api-outscale.oos-website.eu-west-2.outscale.com/))
 
 #### RKE (Rancher Kuberner Engine) deployment
 
 * [Kubernetes Cluster With RKE On Outscale Cloud](https://github.com/outscale-dev/osc-k8s-rke-cluster)
 
-### Rancher Quickstart
+#### Docker machine plugin
 
-* [rancher/quickstart/rancher/outscale](https://github.com/rancher/quickstart/tree/master/rancher/outscale)
+* [outscale-dev/docker-machine-driver-outscale](https://github.com/outscale-dev/docker-machine-driver-outscale) ([docs](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html))
 
-### Docker machine plugin
+#### Terraform provider
 
-* [outscale-dev/docker-machine-driver-outscale](https://github.com/outscale-dev/docker-machine-driver-outscale)
-* [Using DockerMachine with 3DS OUTSCALE](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html)
+* [terraform-provider-outscale](https://github.com/outscale-dev/terraform-provider-outscale) ([docs](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs))
 
-### Terraform provider
+#### Frieza
 
-* [outscale-dev/terraform-provider-outscale](https://github.com/outscale-dev/terraform-provider-outscale)
-* [OUTSCALE Provider](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs)
+* [frieza](https://github.com/outscale-dev/frieza)
+
+### External projects
+
+* [rancher/quickstart/outscale](https://github.com/rancher/quickstart/tree/master/rancher/outscale)
 
 ## Closed-source software
 

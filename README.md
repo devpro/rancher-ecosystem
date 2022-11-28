@@ -2,7 +2,7 @@
 
 [![Pages](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml)
 
-You'll find here documentation about [Rancher](https://rancher.com/), the free open-source Kubernetes management solution, and all related components.
+You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Container Management) solution.
 
 ## Content
 
@@ -10,9 +10,10 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [Fleet](docs/fleet.md)
 * Desktop
   * [Rancher Desktop](docs/rancher-desktop.md)
+* [Edge](docs/edge.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
-* [Kubernetes distributions](docs/k8s-distro.md)
+* [Kubernetes distributions](kubernetes-distributions)
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
@@ -29,10 +30,9 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
   * [Microsoft Azure](docs/providers/microsoft-azure.md)
   * [Nutanix](docs/providers/nutanix.md)
   * [VMware vSphere](docs/providers/wmware-vsphere.md)
-* Rancher
+* [Rancher](docs/rancher.md) ← good starting point
   * [Applications](docs/rancher-apps.md)
   * [Authentication](docs/rancher-authentication.md)
-  * [Getting started](docs/getting-started.md) ← good starting point
   * [Installation](docs/rancher-installation.md)
   * [Integrations](docs/rancher-integrations.md)
 * [Security](docs/security.md)
@@ -42,7 +42,3 @@ You'll find here documentation about [Rancher](https://rancher.com/), the free o
 * System
   * [Elemental](docs/elemental.md)
 * [Support](docs/support.md)
-
-## References
-
-* [rancher.com/docs](https://docs.ranchermanager.rancher.io/)

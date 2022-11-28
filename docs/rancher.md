@@ -1,4 +1,16 @@
-# Getting started with Rancher
+# Rancher
+
+> From datacenter to cloud to edge, Rancher lets you deliver Kubernetes-as-a-Service
+
+→ [rancher.com](https://www.rancher.com/), [rancher.com/docs](https://docs.ranchermanager.rancher.io/)
+
+## Content
+
+* [Applications](rancher-apps.md)
+* [Authentication](rancher-authentication.md)
+* [Desktop](rancher-desktop.md)
+* [Installation](rancher-installation.md)
+* [Integrations](rancher-integrations.md)
 
 ## Overview
 
