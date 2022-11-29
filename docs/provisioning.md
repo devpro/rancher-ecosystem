@@ -32,11 +32,15 @@ Additional node drivers are added in [rancher/rancher](https://github.com/ranche
 
 Drivers are [docker-machine](https://github.com/docker/machine) implementations for each provider, whether for RKE or RKE2/K3s. It is an API to create and delete VMs.
 
-### RKE specifics
+### Distributions
+
+#### RKE
 
 Rancher uses custom CRDs to create clusters and custom controllers that will be used with docker-machine drivers.
 
-### RKE2/K3s specifics
+Node templates are used to ease cluster creation.
+
+#### RKE2/K3s
 
 RKE2/K3s cluster creation uses [Povisioning V2](https://github.com/rancher/rancher/tree/release/v2.7/pkg/controllers/provisioningv2)
 
@@ -45,3 +49,5 @@ Rancher uses the Cluster API controllers and CRDs internally. But it wraps its o
 When a Cluster (provisioning.cattle.io/v1) is created, various CAPI objects are generated: RKECluster, RKEControlPlane, Cluster, RKEBootstrapTemplate, MachineDeployment and infra specific kinds like Amazonec2MachineTemplate.
 
 Currently it is not easily possible to use other Cluster API providers with Rancher.
+
+Cluster template can be used to automate cluster creation in a GitOps way (see [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
