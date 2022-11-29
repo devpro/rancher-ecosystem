@@ -8,7 +8,7 @@
 
 ![Architecture Overview](https://docs.rke2.io/architecture/overview.png)
 
-→ [docs/architecture](https://docs.rke2.io/architecture/architecture/)
+→ [docs/architecture](https://docs.rke2.io/architecture/architecture/), [ADRs](https://github.com/rancher/rke2/blob/master/docs/adrs/README.md)
 
 ## Components
 

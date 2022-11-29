@@ -8,7 +8,7 @@
 
 ## Getting started
 
-A good starting point is the [User Guide](https://docs.outscale.com/userguide).
+A good starting point is the [User Guide](https://docs.outscale.com/userguide)
 
 ### Account
 
@@ -49,39 +49,29 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide).
 
 ## Open-source projects
 
-### Outscale projects
+### Kubernetes
 
-Projets are managed in [outscale-dev](https://github.com/outscale-dev) GitHub organization.
+Name                                                                                    | Installation | Documentation
+----------------------------------------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------
+[BSU CSI driver](https://github.com/outscale-dev/osc-bsu-csi-driver)                    |              |
+[Cloud Controller Manager](https://github.com/outscale-dev/cloud-provider-osc)          |              |
+[Cluster API Provider](https://github.com/outscale-dev/cluster-api-provider-outscale)   |              | [Book](https://cluster-api-outscale.oos-website.eu-west-2.outscale.com/)
+[Docker machine plugin](https://github.com/outscale-dev/docker-machine-driver-outscale) |              | [Technical guide](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html)
+[RKE provisioning example](https://github.com/outscale-dev/osc-k8s-rke-cluster)         |              |
+[Terraform provider](https://github.com/outscale-dev/terraform-provider-outscale)       |              | [Docs](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs)
 
-#### CCM (Cloud Controller Manager)
+References:
 
-* [outscale-dev/cloud-provider-osc](https://github.com/outscale-dev/cloud-provider-osc)
+* BSU: Block Storage Unit
+* CAPI: Cluster API
+* CCM: Cloud Controller Manager
+* CSI: Container Storage Interface
 
-#### BSU (Block Storage Unit) CSI (Container Storage Interface) driver
+### Cloud
 
-* [outscale-dev/osc-bsu-csi-driver](https://github.com/outscale-dev/osc-bsu-csi-driver)
+* [Frieza](https://github.com/outscale-dev/frieza)
 
-#### CAPI (Cluster API) provider
-
-* [outscale-dev/cluster-api-provider-outscale](https://github.com/outscale-dev/cluster-api-provider-outscale) ([docs](https://cluster-api-outscale.oos-website.eu-west-2.outscale.com/))
-
-#### RKE (Rancher Kuberner Engine) deployment
-
-* [Kubernetes Cluster With RKE On Outscale Cloud](https://github.com/outscale-dev/osc-k8s-rke-cluster)
-
-#### Docker machine plugin
-
-* [outscale-dev/docker-machine-driver-outscale](https://github.com/outscale-dev/docker-machine-driver-outscale) ([docs](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html))
-
-#### Terraform provider
-
-* [terraform-provider-outscale](https://github.com/outscale-dev/terraform-provider-outscale) ([docs](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs))
-
-#### Frieza
-
-* [frieza](https://github.com/outscale-dev/frieza)
-
-### External projects
+### Rancher
 
 * [rancher/quickstart/outscale](https://github.com/rancher/quickstart/tree/master/rancher/outscale)
 
