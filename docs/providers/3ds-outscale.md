@@ -13,13 +13,15 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide)
 ### Account
 
 * [Request to create a Cloud account](https://en.outscale.com/request-to-create-a-cloud-account/)
+* AK: Account Key
+* SK: Secret Key
 
 ### Management
 
-* [API](https://docs.outscale.com/api) ([reference](https://docs.outscale.com/en/userguide/OUTSCALE-APIs-Reference.html), [GitHub](https://github.com/outscale/osc-api))
-* [OSC CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-OSC-CLI.html) ([GitHub](https://github.com/outscale/osc-cli))
+* [API](https://docs.outscale.com/api) ([reference](https://docs.outscale.com/en/userguide/OUTSCALE-APIs-Reference.html), [code](https://github.com/outscale/osc-api))
+* [OSC CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-OSC-CLI.html) ([code](https://github.com/outscale/osc-cli))
 * [AWS CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-AWS-CLI.html)
-* [Cockpit (web UI)](https://docs.outscale.com/en/userguide/About-Cockpit.html)
+* [Cockpit (web UI)](https://cockpit.outscale.com/) ([v2 (beta)](https://new.cockpit.outscale.com/), [docs](https://docs.outscale.com/en/userguide/About-Cockpit.html))
 
 ### Ressources
 
@@ -59,6 +61,7 @@ Name                                                                            
 [Docker machine plugin](https://github.com/outscale-dev/docker-machine-driver-outscale) |              | [Technical guide](https://docs.outscale.com/en/userguide/Using-DockerMachine-with-3DS-OUTSCALE.html)
 [RKE provisioning example](https://github.com/outscale-dev/osc-k8s-rke-cluster)         |              |
 [Terraform provider](https://github.com/outscale-dev/terraform-provider-outscale)       |              | [Docs](https://registry.terraform.io/providers/outscale-dev/outscale/latest/docs)
+[Rancher Driver UI](https://github.com/outscale-dev/rancher-ui-driver-outscale)         |              |
 
 References:
 
