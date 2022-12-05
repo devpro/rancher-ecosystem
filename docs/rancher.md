@@ -14,7 +14,8 @@
 
 ## Overview
 
-* Look at [Rancher Architecture](https://rancher.com/docs/rancher/v2.6/en/overview/architecture/)
+* [Architecture overview](https://rancher.com/docs/rancher/v2.6/en/overview/architecture/)
+* [Backups and Disaster Recovery](https://docs.ranchermanager.rancher.io/pages-for-subheaders/backup-restore-and-disaster-recovery)
 
 ## Quick run
 
