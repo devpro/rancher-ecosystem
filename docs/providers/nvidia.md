@@ -1,6 +1,6 @@
 # NVIDIA Cloud Native
 
-[docs](https://docs.nvidia.com/datacenter/cloud-native/contents.html)
+[docs](https://docs.nvidia.com/datacenter/cloud-native/contents.html), [youtube](https://www.youtube.com/@NVIDIA), [youtube developer](https://www.youtube.com/@NVIDIADeveloper)
 
 ## Graphical cards
 
@@ -22,6 +22,10 @@ A100 |                |
 > Multi-Instance GPU (MIG) expands the performance and value of NVIDIA H100, A100, and A30 Tensor Core GPUs. MIG can partition the GPU into as many as seven instances, each fully isolated with its own high-bandwidth memory, cache, and compute cores.
 
 → [product](https://www.nvidia.com/en-us/technologies/multi-instance-gpu/)
+
+## NVIDIA GPU Cloud (NGC)
+
+* [NGC catalog](https://catalog.ngc.nvidia.com/containers)
 
 ## Components
 
@@ -50,6 +54,10 @@ A100 |                |
 * [Platform suppport](https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/platform-support.html)
 * [Getting support](https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/getting-started.html)
 
+### NVIDIA Device Plugin
+
+→ [code](https://github.com/NVIDIA/k8s-device-plugin)
+
 ## Tutorials
 
 ### NVIDIA GPU Operator in K3s
@@ -60,7 +68,7 @@ A100 |                |
 
 ℹ Full official support should come in early 2023
 
-* Build and push a driver image for SLES
+* Build and push a driver image for SLES (from [GitLab project](https://gitlab.com/nvidia/container-images/driver))
 
 ```bash
 git clone https://gitlab.com/nvidia/container-images/driver.git && cd sle15
