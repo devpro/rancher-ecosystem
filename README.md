@@ -17,6 +17,9 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
+* [GPUs](docs/gpu.md)
+  * [AMD](docs/providers/amd.md)
+  * [NVIDIA](docs/providers/nvidia.md)
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
 * [Networking](docs/networking.md)
