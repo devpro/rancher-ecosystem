@@ -44,4 +44,5 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Longhorn](docs/longhorn.md)
 * System
   * [Elemental](docs/elemental.md)
+  * [SLES](docs/sles.md)
 * [Support](docs/support.md)
