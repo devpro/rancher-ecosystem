@@ -23,7 +23,7 @@ Name                               | Type
 ### Install Rancher on AKS
 
 * [Installing Rancher on AKS](https://docs.ranchermanager.rancher.io/getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-aks)
-  * [samples/scripts/aks-rancher-installation.sh](../samples/scripts/aks-rancher-installation.sh)
+  * [samples/scripts/aks-rancher-installation.sh](../../samples/scripts/aks-rancher-installation.sh)
 
 ### Provision AKS from Rancher
 
