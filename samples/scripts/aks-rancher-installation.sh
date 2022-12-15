@@ -3,7 +3,7 @@
 # sets parameters
 AZURE_LOCATION=westeurope
 CERT_MANAGER_VERSION=v1.10.0
-KUBERNETES_VERSION=v1.24.6
+KUBERNETES_VERSION=v1.23.12
 NODE_COUNT=2
 RESOURCE_PREFIX=bthomas-kubemgmt01
 SUBSCRIPTION_ID=060bb4b4-4d16-4f98-9c5a-58f61c38ff55
@@ -30,6 +30,7 @@ chmod 600 ~/.kube/config
 
 # makes sure Helm repo chart has been added (https://github.com/devpro/helm-charts/blob/main/README.md)
 helm repo add devpro https://devpro.github.io/helm-charts
+helm repo update
 
 # installs NGINX Ingress Controller
 helm upgrade --install ingress-nginx devpro/ingress-nginx --namespace ingress-nginx --create-namespace
@@ -42,7 +43,7 @@ NGINX_PUBLIC_IP=`kubectl get service -n ingress-nginx ingress-nginx-controller -
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/${CERT_MANAGER_VERSION}/cert-manager.crds.yaml
 helm upgrade --install cert-manager devpro/cert-manager --namespace cert-manager --create-namespace
 # MANUAL: makes sure all 3 pods are running fine (cert-manager, cert-manager-cainjector, cert-manager-webhook)
-kubectl get pods --namespace cert-manager
+kubectl get pods,clusterissuer --namespace cert-manager
 
 # installs Let's Encrypt cluster issuers
 helm upgrade --install letsencrypt devpro/letsencrypt \
@@ -52,9 +53,10 @@ helm upgrade --install letsencrypt devpro/letsencrypt \
 kubectl get clusterissuer
 
 # installs Rancher with Helm
+kubectl create namespace cattle-system
 helm upgrade --install rancher devpro/rancher \
   --set rancher.hostname=rancher.${NGINX_PUBLIC_IP}.sslip.io \
-  --namespace cattle-system --create-namespace
+  --namespace cattle-system
 # MANUAL: with Rancher < 2.6.7, edit the rancher ingress object to add "ingressClassName: nginx" under "spec"
 # checks everything is ok
 kubectl get svc,deploy,pod,ingress,pv,certificate -n cattle-system

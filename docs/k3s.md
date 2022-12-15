@@ -25,6 +25,10 @@
 
 * [zawachte/cluster-api-k3s](https://github.com/zawachte/cluster-api-k3s)
 
+## Infrastructure automation (IaC)
+
+* [rlex/ansible-role-k3s](https://github.com/rlex/ansible-role-k3s)
+
 ## Training
 
 * [Introduction to Kubernetes on Edge with K3s - The Linux Foundation](https://www.edx.org/course/introduction-to-kubernetes-on-edge-with-k3s)
