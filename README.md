@@ -17,6 +17,8 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [K3s](docs/k3s.md)
   * [RKE1](docs/rke.md)
   * [RKE2](docs/rke2.md)
+* [Kubernetes storage](docs/kubernetes-storage.md)
+  * [Longhorn](docs/longhorn.md)
 * [GPUs](docs/gpu.md)
   * [AMD](docs/providers/amd.md)
   * [NVIDIA](docs/providers/nvidia.md)
@@ -40,11 +42,10 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Integrations](docs/rancher-integrations.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
-* [Kubernetes storage](docs/kubernetes-storage.md)
-  * [Longhorn](docs/longhorn.md)
 * System
   * [Elemental](docs/elemental.md)
   * [SLES](docs/sles.md)
 * [Support](docs/support.md)
+* [Tuning](docs/tuning.md)
 * Versioning
-  * [Kubernetes version](docs/kubernetes-versions.md)
+  * [Kubernetes versions](docs/kubernetes-versions.md)
