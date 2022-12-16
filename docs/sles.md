@@ -7,6 +7,9 @@
 * Basic commands
 
 ```bash
+# displays system version
+cat /etc/os-release
+
 # gets network information
 ip a
 

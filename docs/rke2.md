@@ -6,7 +6,7 @@
 
 ## Architecture
 
-![Architecture Overview](https://docs.rke2.io/architecture/overview.png)
+![Architecture Overview](https://docs.rke2.io/assets/images/overview-783b5a0a7e319dc96a2db8473dc83f3d.png)
 
 → [docs/architecture](https://docs.rke2.io/architecture/architecture/), [ADRs](https://github.com/rancher/rke2/blob/master/docs/adrs/README.md)
 
