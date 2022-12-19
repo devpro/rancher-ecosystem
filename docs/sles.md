@@ -30,7 +30,7 @@ su -c 'shutdown now'
 zypper install vi
 ```
 
-* Time Synchronization with NTP (Network Time Protocol) ([docs]](https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-ntp.html))
+* Time Synchronization with NTP (Network Time Protocol) ([docs](https://documentation.suse.com/sles/15-SP3/html/SLES-all/cha-ntp.html))
 
 ```bash
 # installs chrony

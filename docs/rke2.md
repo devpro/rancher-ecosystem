@@ -35,6 +35,10 @@
 
 ## Installation
 
+### Ansible
+
+* [rancherfederal/rke2-ansible](https://github.com/rancherfederal/rke2-ansible)
+
 ### Azure VM
 
 * Review VM specifications (example)
