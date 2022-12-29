@@ -24,9 +24,9 @@ and [Configure Keycloak (OIDC)](https://docs.ranchermanager.rancher.io/how-to-gu
     * (Optional) Validate login on Account Console with the newly created User ("https://mydomain/realms/demo/account/#/")
 
   * Create a Client
-    * In **Client details > Settings**, enable Client authentication and save (so can be added)
-    * In **Client details > Client scopes**, click on `rancher-dedicated`
-      * Add mappers "By Configuration"
+    * **Add Client**, Client ID to "rancher", Client Protocol to "openid-connect"
+    * In **Client details > Settings**, set Base URL to "https://rancherurl/", Valid Redirect URIs to "https://rancherurl/verify-auth", Access Type to confidential, activate Authorization Enabled and click on Save (so Credentials tab can be displayed)
+    * In **Client details > Mappers**, create the 3 Mappers (Groups Mapper, Client Audience, Group Path)
     * In **Client details > Credentials**, copy client secret
 
   * Realm Settings > General tab, click OpenID Endpoint Configuration and copy from the JSON output will display values for issuer and authorization_endpoint
