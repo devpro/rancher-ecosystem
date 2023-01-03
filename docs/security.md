@@ -51,8 +51,9 @@
 
 ## Tools
 
+* [Kubescape](https://github.com/kubescape/kubescape)
 * [OpenSCAP](https://www.open-scap.org/)
-* [SUSE NeuVector](./neuvector.md)
+* [NeuVector](./neuvector.md)
 
 ## Training
 
