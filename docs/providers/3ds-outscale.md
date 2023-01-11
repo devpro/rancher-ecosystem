@@ -23,6 +23,21 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide)
 * [AWS CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-AWS-CLI.html)
 * [Cockpit (web UI)](https://cockpit.outscale.com/) ([v2 (beta)](https://new.cockpit.outscale.com/), [docs](https://docs.outscale.com/en/userguide/About-Cockpit.html))
 
+### First steps
+
+#### UI administration
+
+* In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
+  * In "Security", add a rule to authorize SSH (port 22) from "My IP"
+  * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
+
+#### Rancher integration
+
+* In "Cluster Management" > "Drivers" > "Node Drivers"
+  * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
+* In "Cluster Management" > "Clusters"
+  * In "Create" form, select "RKE2/K3s", click on "outscale"
+
 ### Ressources
 
 #### Network

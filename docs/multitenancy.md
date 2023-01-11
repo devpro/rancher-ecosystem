@@ -40,7 +40,7 @@ See also:
 
 → [code](https://github.com/kcp-dev/kcp)
 
-### kiosk
+### kiosk (by Loft Labs)
 
 > Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning
 
