@@ -1,12 +1,8 @@
 # Multitenancy
 
-## Definition
-
-* [Red Hat](https://www.redhat.com/en/topics/cloud-computing/what-is-multitenancy)
-
-> Multitenancy is a software architecture where a single software instance can serve multiple, distinct user groups. In cloud computing, multitenancy can also refer to shared hosting, in which server resources are divided among different customers.
-
 ## Solutions for Kubernetes
+
+> Multi-tenancy is a Kubernetes cluster model or architecture model in which a single cluster’s resources are shared among multiple tenants. Examples of the shared cluster resources include CPU, memory, networking, and control plane resources. ([ContainIQ](https://www.containiq.com/post/kubernetes-multi-tenancy))
 
 ### CAPN
 
