@@ -11,6 +11,7 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
 * Desktop
   * [Rancher Desktop](docs/rancher-desktop.md)
 * [Edge](docs/edge.md)
+  * [Elemental](docs/elemental.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
 * [Kubernetes distributions](docs/kubernetes-distributions.md)
@@ -28,8 +29,11 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [NVIDIA](docs/providers/nvidia.md)
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
+* [Multitenancy](docs/multitenancy.md)
 * [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
+* Operating systems
+  * [SLES](docs/sles.md)
 * Packaging
   * [Hypper](docs/hypper.md)
 * [Provisioning](docs/provisioning.md)
@@ -46,8 +50,5 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Integrations](docs/rancher-integrations.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
-* System
-  * [Elemental](docs/elemental.md)
-  * [SLES](docs/sles.md)
 * [Support](docs/support.md)
 * [Tuning](docs/tuning.md)
