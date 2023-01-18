@@ -1,6 +1,23 @@
 # Observability
 
-## Logging
+## Introduction
 
-* [Rancher Integration with Logging Services](https://rancher.com/docs/rancher/v2.6/en/logging/)
+The three pillars of observability:
+
+* Metrics
+* Logs
+* Distributed traces
+
+## Rancher
+
+### Rancher guides
+
+* [Monitoring](https://ranchermanager.docs.rancher.com/pages-for-subheaders/monitoring-alerting-guides)
+* [Monitoring V2](https://ranchermanager.docs.rancher.com/pages-for-subheaders/monitoring-v2-configuration-guides)
+* [Monitoring and Alerting](https://ranchermanager.docs.rancher.com/pages-for-subheaders/monitoring-and-alerting)
+* [Logging](https://ranchermanager.docs.rancher.com/pages-for-subheaders/logging)
   * [Banzai Cloud Logging Operator](https://banzaicloud.com/docs/one-eye/logging-operator/)
+
+### Prometheus exporters for Rancher
+
+* [David-VTUK/prometheus-rancher-exporter](https://github.com/David-VTUK/prometheus-rancher-exporter)
