@@ -23,7 +23,6 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
 * [Kubernetes storage](docs/kubernetes-storage.md)
   * [Longhorn](docs/longhorn.md)
 * [Kubernetes utilities](docs/kubernetes-utilities.md)
-* [Kubernetes versions](docs/kubernetes-versions.md)
 * [GPUs](docs/gpu.md)
   * [AMD](docs/providers/amd.md)
   * [NVIDIA](docs/providers/nvidia.md)
