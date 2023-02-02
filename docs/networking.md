@@ -6,9 +6,9 @@
 
 ## Documentation
 
-* [Container Network Interface (CNI) Providers](https://rancher.com/docs/rancher/v2.6/en/faq/networking/cni-providers/)
-* [Troubleshooting](https://rancher.com/docs/rancher/v2.6/en/troubleshooting/networking/)
-* [Rancher Nodes Ports](https://rancher.com/docs/rancher/v2.6/en/installation/requirements/ports/)
+* [Container Network Interface (CNI) Providers](https://ranchermanager.docs.rancher.com/faq/container-network-interface-providers)
+* [Troubleshooting](https://ranchermanager.docs.rancher.com/troubleshooting/other-troubleshooting-tips/networking)
+* [Rancher Nodes Ports](https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/installation-requirements/port-requirements)
 * Knowledge base
   * [Will Rancher fix the issue and release a patch, if the problem is root-caused in one of the Rancher 2.x CNI plugin add-ons such as Weave, Cisco ACI, Cilium, and Calico?](https://www.suse.com/support/kb/doc/?id=000020468)
 

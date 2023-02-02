@@ -12,3 +12,7 @@
 * [NeuVector](neuvector.md)
 * Rancher
 * SLE micro
+
+## Ecosystem
+
+* [Kairos](https://github.com/kairos-io/kairos) is an immutable Linux meta-distribution for edge Kubernetes
