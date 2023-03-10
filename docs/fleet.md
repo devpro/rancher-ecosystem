@@ -10,6 +10,11 @@ Read more: [Scaling Fleet and Kubernetes to a Million Clusters](https://www.suse
 
 ## Quick start
 
+### Getting to know Fleet
+
+* Youtube videos
+  * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
+
 ### Install Fleet objects in your Kubernetes cluster
 
 ```bash
@@ -38,6 +43,18 @@ kubectl apply -f samples/gitrepo-guestbook-sample.yaml -n fleet-sample
 # views fleet action
 kubectl get fleet -n fleet-sample
 ```
+
+## Competitors
+
+Fleet is using the Pull model.
+
+### ArgoCD
+
+* Push model
+
+### Flux
+
+* Pull model
 
 ## Limitations
 
