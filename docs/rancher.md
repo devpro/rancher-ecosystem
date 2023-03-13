@@ -61,3 +61,7 @@ sudo docker logs local_rancher 2>&1 | grep "Bootstrap Password:"
 ## Quick starts
 
 * [Quickstart examples for the SUSE Rancher product portfolio](https://github.com/rancher/quickstart)
+
+## Getting further
+
+* [Rancher Barn](https://github.com/rancher/barn)
