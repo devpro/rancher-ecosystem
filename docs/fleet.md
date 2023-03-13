@@ -14,6 +14,7 @@ Read more: [Scaling Fleet and Kubernetes to a Million Clusters](https://www.suse
 
 * Youtube videos
   * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
+  * [GitOps The Planet (E4) | GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
 
 ### Install Fleet objects in your Kubernetes cluster
 
