@@ -1,8 +1,6 @@
-# Rancher integrations
+# Rancher extensions
 
-## Rancher Extensions
-
-### Getting to know Rancher Extensions
+## Getting to know
 
 💡 Introduced in Rancher 2.7.0
 
@@ -13,7 +11,9 @@
   * [Elemental](https://github.com/rancher/elemental-ui) ([Helm chart](https://github.com/rancher/elemental-ui/tree/main/charts/elemental))
   * [Kubewarden](https://github.com/kubewarden/ui) ([Helm chart](https://github.com/kubewarden/ui/tree/main/charts/kubewarden))
 * [Plugin charts](https://github.com/rancher/ui-plugin-charts)
-* [UI Plugin examples](https://github.com/rancher/ui-plugin-examples)
+* Examples
+  * [Rancher UI Plugin examples](https://github.com/rancher/ui-plugin-examples)
+  * [Devpro samples](https://github.com/devpro/rancher-extensions-samples)
 
 ### Quick start
 
