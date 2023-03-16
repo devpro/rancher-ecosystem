@@ -43,11 +43,12 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Nutanix](docs/providers/nutanix.md)
   * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Rancher](docs/rancher.md) ← good starting point
-  * [Applications](docs/rancher-apps.md)
   * [Authentication](docs/rancher-authentication.md)
   * [Backup](docs/rancher-backup.md)
   * [Installation](docs/rancher-installation.md)
-  * [Integrations](docs/rancher-integrations.md)
+  * Integrations
+    * [Applications](docs/rancher-apps.md)
+    * [Extensions](docs/rancher-extensions.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
 * [Support](docs/support.md)
