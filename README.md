@@ -35,13 +35,6 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [SLES](docs/sles.md)
 * Packaging
   * [Hypper](docs/hypper.md)
-* [Provisioning](docs/provisioning.md)
-  * [3DS Outscale](docs/providers/3ds-outscale.md)
-  * [Amazon AWS](docs/providers/amazon-aws.md)
-  * [Google GCP](docs/providers/google-gcp.md)
-  * [Microsoft Azure](docs/providers/microsoft-azure.md)
-  * [Nutanix](docs/providers/nutanix.md)
-  * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Rancher](docs/rancher.md) ← good starting point
   * [Authentication](docs/rancher-authentication.md)
   * [Backup](docs/rancher-backup.md)
@@ -49,6 +42,13 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * Integrations
     * [Applications](docs/rancher-apps.md)
     * [Extensions](docs/rancher-extensions.md)
+  * [Provisioning](docs/rancher-provisioning.md)
+    * [3DS Outscale](docs/providers/3ds-outscale.md)
+    * [Amazon AWS](docs/providers/amazon-aws.md)
+    * [Google GCP](docs/providers/google-gcp.md)
+    * [Microsoft Azure](docs/providers/microsoft-azure.md)
+    * [Nutanix](docs/providers/nutanix.md)
+    * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
 * [Support](docs/support.md)
