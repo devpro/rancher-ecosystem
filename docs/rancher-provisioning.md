@@ -24,6 +24,8 @@ From Rancher UI, drivers can be viewed and managed from **Cluster Management > D
 
 Operators are used for built-in cluster drivers, for example [AKS operator](https://github.com/rancher/aks-operator), [EKS operator](https://github.com/rancher/eks-operator), [GKE operator](https://github.com/rancher/gke-operator).
 
+See also: [Kontainer Engine Example Driver](https://github.com/rancher-plugins/kontainer-engine-driver-example)
+
 #### Node drivers
 
 Built-in node drivers are defined in [rancher/machine](https://github.com/rancher/machine/tree/master/drivers).
@@ -31,6 +33,8 @@ Built-in node drivers are defined in [rancher/machine](https://github.com/ranche
 Additional node drivers are added in [rancher/rancher](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L74).
 
 Drivers are [docker-machine](https://github.com/docker/machine) implementations for each provider, whether for RKE or RKE2/K3s. It is an API to create and delete VMs.
+
+See also: [UI DevKit > Machine Drivers](https://rancher.github.io/dashboard/code-base-works/machine-drivers)
 
 ### Distributions
 
