@@ -8,6 +8,12 @@ The three pillars of observability:
 * Logs
 * Distributed traces
 
+## Best practices
+
+### OpenTelemetry
+
+* [Boosting Kubernetes container runtime observability with OpenTelemetry](https://kubernetes.io/blog/2022/12/01/runtime-observability-opentelemetry/)
+
 ## Rancher
 
 ### Rancher guides
