@@ -19,3 +19,9 @@
 * [Creating a vSphere Cluster](https://rancher.com/docs/rancher/v2.6/en/cluster-provisioning/rke-clusters/node-pools/vsphere/)
 * [Rancher, vSphere Network Protocol Profiles and static IP addresses for k8s nodes](https://www.virtualthoughts.co.uk/2020/03/29/rancher-vsphere-network-protocol-profiles-and-static-ip-addresses-for-k8s-nodes/) - March 29, 2020
 * [Using cloud-init for VM templating on vSphere](https://blah.cloud/infrastructure/using-cloud-init-for-vm-templating-on-vsphere/) - June 9, 2019
+
+## References
+
+### Storage
+
+* [Compatibility Matrices for vSphere Container Storage Plug-in](https://docs.vmware.com/en/VMware-vSphere-Container-Storage-Plug-in/2.0/vmware-vsphere-csp-getting-started/GUID-D4AAD99E-9128-40CE-B89C-AD451DA8379D.html)
