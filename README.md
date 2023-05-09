@@ -53,3 +53,7 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [NeuVector](docs/neuvector.md)
 * [Support](docs/support.md)
 * [Tuning](docs/tuning.md)
+
+## Bonus
+
+* [Rancher Brand Guidelines & Resources](https://www.rancher.com/brand-guidelines)
