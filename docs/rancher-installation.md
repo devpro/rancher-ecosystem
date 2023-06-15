@@ -13,6 +13,8 @@ Version                                                           | Date       |
 ## Providers
 
 * [AKS](providers/microsoft-azure.md#install-rancher-on-aks)
+* [Outscale](providers/3ds-outscale.md#create-a-rke2-cluster-and-install-rancher-on-it)
+* [Nutanix](providers/nutanix.md#rancher--rke-on-nutanix)
 * [vSphere](providers/wmware-vsphere.md#install-rancher-in-vsphere)
 
 ## Known issues

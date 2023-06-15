@@ -1,20 +1,16 @@
 # 3DS OUTSCALE
 
-## About
-
 > Founded in 2010 and a strategic partner of Dassault Systèmes, 3DS OUTSCALE is at the forefront of Cloud Computing infrastructure services (IaaS)
 
-→ [outscale.com](https://outscale.com/), [Twitter](https://twitter.com/outscale), [LinkedIn](https://www.linkedin.com/company/outscale/), [GitHub](https://github.com/outscale)
+→ [outscale.com](https://outscale.com/), [GitHub](https://github.com/outscale)
 
 ## Getting started
 
-A good starting point is the [User Guide](https://docs.outscale.com/userguide)
+A good starting point is the [User Guide](https://docs.outscale.com/userguide).
 
 ### Account
 
-* [Request to create a Cloud account](https://en.outscale.com/request-to-create-a-cloud-account/)
-* AK: Account Key
-* SK: Secret Key
+An Account Key (AK) and a Secret Key (SK) are needed.
 
 ### Management
 
@@ -23,24 +19,30 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide)
 * [AWS CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-AWS-CLI.html)
 * [Cockpit (web UI)](https://cockpit.outscale.com/) ([v2 (beta)](https://new.cockpit.outscale.com/), [docs](https://docs.outscale.com/en/userguide/About-Cockpit.html))
 
-### First steps
+## Recipes
 
-#### UI administration
+### Create a RKE2 cluster and install Rancher on it
 
-* In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
-  * In "Security", add a rule to authorize SSH (port 22) from "My IP"
-  * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
+* Terraform: use [Rancher Quickstart](https://github.com/rancher/quickstart/blob/master/rancher/outscale/README.md)
 
-#### Rancher integration
+### Connect to a VM
 
-* In "Cluster Management" > "Drivers" > "Node Drivers"
-  * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
-* In "Cluster Management" > "Clusters"
-  * In "Create" form, select "RKE2/K3s", click on "outscale"
+* From OUTSCALE Web UI
+  * In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
+    * In "Security", add a rule to authorize SSH (port 22) from "My IP"
+    * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
 
-### Ressources
+### Rancher integration
 
-#### Network
+* From Rancher UI
+  * In "Cluster Management" > "Drivers" > "Node Drivers"
+    * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
+  * In "Cluster Management" > "Clusters"
+    * In "Create" form, select "RKE2/K3s", click on "outscale"
+
+## Ressources
+
+### Network
 
 * Virtual Private Clouds (VPCs)
 * External IPs (EIPs)
@@ -53,12 +55,12 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide)
 
 → [docs](https://docs.outscale.com/en/userguide/Network-and-Security.html)
 
-#### Storage
+### Storage
 
 * [Block Storage Unit (BSU)](https://docs.outscale.com/en/userguide/Block-Storage-Unit-(BSU).html)
 * [OUTSCALE Object Storage (OOS)](https://docs.outscale.com/en/userguide/OUTSCALE-Object-Storage-(OOS).html)
 
-#### Compute
+### Compute
 
 * [Flexible Compute Unit (FCU)](https://docs.outscale.com/en/userguide/Flexible-Compute-Unit-(FCU).html)
 * [OUTSCALE Machine Images (OMIs)](https://docs.outscale.com/en/userguide/OUTSCALE-Machine-Images-(OMIs).html)
@@ -88,10 +90,6 @@ References:
 ### Cloud
 
 * [Frieza](https://github.com/outscale-dev/frieza)
-
-### Rancher
-
-* [rancher/quickstart/outscale](https://github.com/rancher/quickstart/tree/master/rancher/outscale)
 
 ## Closed-source software
 

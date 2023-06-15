@@ -1,5 +1,11 @@
 # Nutanix
 
+## Getting started
+
+### Rancher & RKE on Nutanix
+
+* [How to deploy RKE1 clusters from Rancher on Nutanix](https://www.nutanix.dev/2023/06/09/how-to-deploy-a-fleet-of-rancher-rke1-clusters-on-nutanix-the-complete-guide-part-1/) - June 9, 2023
+
 ## Open-Source Software
 
 ### Kubernetes
@@ -14,7 +20,9 @@ CSI Storage Driver                                                              
 [NDB Service Operator](https://github.com/nutanix-cloud-native/ndb-operator)                | [Helm chart](https://github.com/nutanix/helm/tree/master/charts/ndb-operator)         |
 [Rancher UI Driver](https://github.com/nutanix/rancher-ui-driver)                           |                                                                                       |
 
-## References
+## Glossary
 
-* CSI: [Container Storage Interface](https://github.com/container-storage-interface/spec)
-* NDB: Nutanix Database
+Abbreviation | Meaning
+-------------|-----------------------------------------------------------------------------------
+**CSI**      | [Container Storage Interface](https://github.com/container-storage-interface/spec)
+**NDB**      | Nutanix Database
