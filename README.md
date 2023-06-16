@@ -35,7 +35,7 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [SLES](docs/sles.md)
 * Packaging
   * [Hypper](docs/hypper.md)
-* [Rancher](docs/rancher.md) ← good starting point
+* [Rancher](docs/rancher.md)
   * [Authentication](docs/rancher-authentication.md)
   * [Backup](docs/rancher-backup.md)
   * [Installation](docs/rancher-installation.md)
