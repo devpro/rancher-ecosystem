@@ -14,3 +14,10 @@
 * [Installation](rancher-installation.md)
 * [Integrations](rancher-integrations.md)
 * [Operations](rancher-operations.md)
+
+## Additional content
+
+* Marketing
+  * [Rancher Brand Guidelines & Resources](https://www.rancher.com/brand-guidelines)
+* Recipes
+  * [Rancher barn](https://github.com/rancher/barn)

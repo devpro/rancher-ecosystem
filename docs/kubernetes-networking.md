@@ -1,4 +1,4 @@
-# Networking
+# Networking in Kubernetes
 
 ## General ideas
 

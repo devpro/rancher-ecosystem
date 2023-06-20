@@ -14,22 +14,24 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Elemental](docs/elemental.md)
 * Infrastructure
   * [Harvester](docs/harvester.md)
-* [Kubernetes distributions](docs/kubernetes-distributions.md)
-  * [K3s](docs/k3s.md)
-  * [RKE1](docs/rke.md)
-  * [RKE2](docs/rke2.md)
-* Kubernetes policy
-  * [Kubewarden](docs/kubewarden.md)
-* [Kubernetes storage](docs/kubernetes-storage.md)
-  * [Longhorn](docs/longhorn.md)
-* [Kubernetes utilities](docs/kubernetes-utilities.md)
+* Kubernetes
+  * [Distributions](docs/kubernetes-distributions.md)
+    * [K3s](docs/k3s.md)
+    * [RKE1](docs/rke.md)
+    * [RKE2](docs/rke2.md)
+  * [Multitenancy](docs/kubernetes-multitenancy.md)
+  * [Networking](docs/kubernetes-networking.md)
+  * Policy
+    * [Kubewarden](docs/kubewarden.md)
+  * [Storage](docs/kubernetes-storage.md)
+    * [Longhorn](docs/longhorn.md)
+  * [Tuning](docs/kubernetes-tuning.md)
+  * [utilities](docs/kubernetes-utilities.md)
 * [GPUs](docs/gpu.md)
   * [AMD](docs/providers/amd.md)
   * [NVIDIA](docs/providers/nvidia.md)
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
-* [Multitenancy](docs/multitenancy.md)
-* [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
 * Operating systems
   * [SLES](docs/sles.md)
@@ -51,9 +53,10 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
     * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
-* [Support](docs/support.md)
-* [Tuning](docs/tuning.md)
 
-## Bonus
+## Additional content
 
-* [Rancher Brand Guidelines & Resources](https://www.rancher.com/brand-guidelines)
+* Automation
+  * [Terraform-based quickstarts](https://github.com/rancher/quickstart)
+* Support
+  * [Support Matrix](https://www.suse.com/suse-rancher/support-matrix/)

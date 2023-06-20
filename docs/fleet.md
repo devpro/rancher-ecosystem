@@ -45,6 +45,11 @@ kubectl apply -f samples/gitrepo-guestbook-sample.yaml -n fleet-sample
 kubectl get fleet -n fleet-sample
 ```
 
+## Examples
+
+* [Martin Weiss](https://github.com/Martin-Weiss/rancher-fleet)
+* [SUSE Exchange Paris 2023](https://github.com/devpro/helm-charts/tree/main/samples/suse-exchange-paris-2023)
+
 ## Competitors
 
 Fleet is using the Pull model.
