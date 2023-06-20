@@ -12,8 +12,8 @@
 * [Extensions](rancher-extensions.md)
 * [Getting started](rancher-gettingstarted.md) ← good starting point
 * [Installation](rancher-installation.md)
-* [Integrations](rancher-integrations.md)
 * [Operations](rancher-operations.md)
+* [Provisioning](rancher-provisioning.md)
 
 ## Additional content
 
