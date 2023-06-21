@@ -6,15 +6,13 @@
 
 → [fleet.rancher.io](https://fleet.rancher.io/), [GitHub](https://github.com/rancher/fleet)
 
-Read more: [Scaling Fleet and Kubernetes to a Million Clusters](https://www.suse.com/c/rancher_blog/scaling-fleet-and-kubernetes-to-a-million-clusters/)
-
 ## Quick start
 
 ### Getting to know Fleet
 
 * Youtube videos
-  * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
   * [GitOps The Planet (E4) | GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
+  * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
 
 ### Install Fleet objects in your Kubernetes cluster
 
@@ -45,22 +43,18 @@ kubectl apply -f samples/gitrepo-guestbook-sample.yaml -n fleet-sample
 kubectl get fleet -n fleet-sample
 ```
 
-## Examples
+## Samples
 
 * [Martin Weiss](https://github.com/Martin-Weiss/rancher-fleet)
 * [SUSE Exchange Paris 2023](https://github.com/devpro/helm-charts/tree/main/samples/suse-exchange-paris-2023)
 
-## Competitors
+## Competition
 
-Fleet is using the Pull model.
-
-### ArgoCD
-
-* Push model
-
-### Flux
-
-* Pull model
+Name       | Model
+-----------|------
+**ArgoCD** | Push
+**Fleet**  | Pull
+**Flux**   | Pull
 
 ## Limitations
 
@@ -105,3 +99,7 @@ fleet-controller                          | RoleBinding
 gitjob                                    | Service
 gitjob                                    | Deployment
 fleet-controller                          | Deployment
+
+### Git token expired
+
+* If you manage the GitRepo from Rancher UI and create new git credential, save twice the UI
