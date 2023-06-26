@@ -10,7 +10,7 @@ A good starting point is the [User Guide](https://docs.outscale.com/userguide).
 
 ### Account
 
-An _Account Key_ and a _Secret Key_ are needed to authenticate.
+An _Account Key_ and a _Secret Key_ are needed to authenticate and manage the resources on OUTSCALE Cloud.
 
 ### Management
 
@@ -18,6 +18,7 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate.
 * [OSC CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-OSC-CLI.html) ([code](https://github.com/outscale/osc-cli))
 * [AWS CLI](https://docs.outscale.com/en/userguide/Installing-and-Configuring-AWS-CLI.html)
 * [Cockpit (web UI)](https://cockpit.outscale.com/) ([v2 (beta)](https://new.cockpit.outscale.com/), [docs](https://docs.outscale.com/en/userguide/About-Cockpit.html))
+* [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=outscale.osc-viewer) ([code](https://github.com/outscale/vscode-osc-viewer))
 
 ## Recipes
 
@@ -39,6 +40,50 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate.
     * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
   * In "Cluster Management" > "Clusters"
     * In "Create" form, select "RKE2/K3s", click on "outscale"
+
+### RKE2 creation from Rancher UI
+
+* Open Rancher
+  * In "Cluster Management", "Drivers", "Node Drivers", enable "Outscale"
+  * In "Cluster Management", "Cloud Credentials", click on "Create", select "Outscale", submit and fill the informations
+  * In "Cluster Management", "Clusters", click on "Create", select "outscale"
+    * Specify the "supportOmi" (check [Official OMIs Reference](https://docs.outscale.com/en/userguide/Official-OMIs-Reference.html))
+    * Set "tinav5.c3r4p1" as "instanceType" (check [Instance Types](https://docs.outscale.com/en/userguide/Instance-Types.html))
+
+### RKE2 troubleshooting
+
+* Open Rancher
+  * In "Cluster Management", "Clusters", click on the cluster, in the Machine Pool line click on the menu and select "Download SSH Key"
+
+* Open [new.cockpit.outscale.com](https://new.cockpit.outscale.com/)
+  * In "Compute", "VMs", in the VM line, copy the "Public IP" value
+
+* Open a terminal
+
+```bash
+# makes sure ssh files have the right permission
+chmod 600 /path/to/ssh
+# connects to the VM
+ssh -i /path/to/ssh/id_rsa <public_ip> -l outscale
+# example: ssh -i /mnt/c/Users/SomeUser/workspace/temp/osc-dummy01-pool1-xxxxxx-yyyy/id_rsa 1.2.3.4 -l outscale
+```
+
+* Investigate potential issues
+
+```bash
+journalctl -xefu rke2-server
+systemctl status rke2-server
+journalctl -u rancher-system-agent.service -f
+
+# installs kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+sudo cp /etc/rancher/rke2/rke2.yaml .
+sudo chown outscale:outscale rke2.yaml
+export KUBECONFIG=/home/outscale/rke2.yaml
+kubectl get pods --all-namespaces
+```
 
 ## Ressources
 
@@ -100,6 +145,8 @@ metadata:
 ```
 
 #### Container Storage Interface
+
+TODO
 
 ### Cloud
 
