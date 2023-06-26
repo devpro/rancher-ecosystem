@@ -21,18 +21,18 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate.
 
 ## Recipes
 
-### Create a RKE2 cluster and install Rancher on it
+### Create a Kubernetes cluster from OSC VMs and install Rancher on it
 
 * Terraform: use [Rancher Quickstart](https://github.com/rancher/quickstart/blob/master/rancher/outscale/README.md)
 
-### Connect to a VM
+### Connect to a OSC VM
 
 * From OUTSCALE Web UI
   * In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
     * In "Security", add a rule to authorize SSH (port 22) from "My IP"
     * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
 
-### Rancher integration
+### Create a Kubernetes Rancher on OCS VMs from Rancher
 
 * From Rancher UI
   * In "Cluster Management" > "Drivers" > "Node Drivers"
@@ -53,7 +53,7 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate.
 * OUTSCALE Public IPs
 * OUTSCALE NTP Servers
 
-→ [docs](https://docs.outscale.com/en/userguide/Network-and-Security.html)
+Ref. [docs](https://docs.outscale.com/en/userguide/Network-and-Security.html)
 
 ### Storage
 
@@ -70,7 +70,7 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate.
 
 ### Kubernetes
 
-Name                                                                                | Documentation
+Name                                                                                | Links
 ------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------
 [BSU CSI driver](https://github.com/outscale/osc-bsu-csi-driver)                    |
 [Cloud Controller Manager](https://github.com/outscale/cloud-provider-osc)          |
@@ -79,6 +79,27 @@ Name                                                                            
 [RKE provisioning example](https://github.com/outscale/osc-k8s-rke-cluster)         |
 [Terraform provider](https://github.com/outscale/terraform-provider-outscale)       | [Docs](https://registry.terraform.io/providers/outscale/outscale/latest/docs)
 [Rancher Driver UI](https://github.com/outscale/rancher-ui-driver-outscale)         |
+
+#### Cloud Controller Manager
+
+* Install from Helm ([code](https://github.com/outscale/cloud-provider-osc/tree/OSC-MIGRATION/deploy/k8s-osc-ccm), [ArtifactHub](https://artifacthub.io/packages/helm/osc-cloud-controller-manager/osc-cloud-controller-manager))
+
+```bash
+helm install my-osc-cloud-controller-manager oci://registry-1.docker.io/outscalehelm/osc-cloud-controller-manager
+```
+
+* Use annotations ([examples](https://github.com/outscale/cloud-provider-osc/tree/OSC-MIGRATION/examples))
+
+```yaml
+# Service example
+apiVersion: v1
+metadata:
+  annotations:
+    service.beta.kubernetes.io/osc-load-balancer-name-length: "20"
+    service.beta.kubernetes.io/osc-load-balancer-name: "simple-lb-test"
+```
+
+#### Container Storage Interface
 
 ### Cloud
 
