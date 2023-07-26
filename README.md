@@ -8,8 +8,6 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
 
 * Continuous Deployment (GitOps)
   * [Fleet](docs/fleet.md)
-* Desktop
-  * [Rancher Desktop](docs/rancher-desktop.md)
 * [Edge](docs/edge.md)
   * [Elemental](docs/elemental.md)
 * Infrastructure
@@ -26,14 +24,16 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Storage](docs/kubernetes-storage.md)
     * [Longhorn](docs/longhorn.md)
   * [Tuning](docs/kubernetes-tuning.md)
-  * [utilities](docs/kubernetes-utilities.md)
+  * [Utilities](docs/kubernetes-utilities.md)
 * [GPUs](docs/gpu.md)
   * [AMD](docs/providers/amd.md)
   * [NVIDIA](docs/providers/nvidia.md)
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
+  * [Rancher Academy](https://www.rancher.academy/)
 * [Observability](docs/observability.md)
 * Operating systems
+  * openSUSE
   * [SLES](docs/sles.md)
 * Packaging
   * [Hypper](docs/hypper.md)
@@ -53,10 +53,12 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
     * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
+* Workstation
+  * [Rancher Desktop](docs/rancher-desktop.md)
 
 ## Additional content
 
 * Automation
   * [Terraform-based quickstarts](https://github.com/rancher/quickstart)
-* Support
+* Souscription
   * [Support Matrix](https://www.suse.com/suse-rancher/support-matrix/)
