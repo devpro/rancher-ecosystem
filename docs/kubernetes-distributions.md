@@ -3,7 +3,7 @@
 Kubernetes can be installed manually (see [the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)), "vanilla" through [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/)
 or with official CNCF validated distributions that strenghten the installation and ease the maintenance.
 
-## CNCF certified (open-source)
+## CNCF certified
 
 ### Open-source
 
@@ -11,7 +11,7 @@ or with official CNCF validated distributions that strenghten the installation a
 * [RKE2](rke2.md)
 * [K3s](k3s.md)
 
-### Cloud Provider
+### Cloud Providers
 
 * AKS (Azure)
 * EKS (Amazon)

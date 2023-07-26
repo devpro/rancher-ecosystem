@@ -10,8 +10,6 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Fleet](docs/fleet.md)
 * [Edge](docs/edge.md)
   * [Elemental](docs/elemental.md)
-* Infrastructure
-  * [Harvester](docs/harvester.md)
 * Kubernetes
   * [Distributions](docs/kubernetes-distributions.md)
     * [K3s](docs/k3s.md)
@@ -38,27 +36,24 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
 * Packaging
   * [Hypper](docs/hypper.md)
 * [Rancher](docs/rancher.md)
+  * [Applications](docs/rancher-apps.md)
+  * [Architecture](docs/rancher-architecture.md)
   * [Authentication](docs/rancher-authentication.md)
+  * [Automation](docs/rancher-automation.md)
   * [Backup](docs/rancher-backup.md)
+  * [Extensions](docs/rancher-extensions.md)
   * [Installation](docs/rancher-installation.md)
-  * Integrations
-    * [Applications](docs/rancher-apps.md)
-    * [Extensions](docs/rancher-extensions.md)
-  * [Provisioning](docs/rancher-provisioning.md)
-    * [3DS Outscale](docs/providers/3ds-outscale.md)
-    * [Amazon AWS](docs/providers/amazon-aws.md)
-    * [Google GCP](docs/providers/google-gcp.md)
-    * [Microsoft Azure](docs/providers/microsoft-azure.md)
-    * [Nutanix](docs/providers/nutanix.md)
-    * [VMware vSphere](docs/providers/wmware-vsphere.md)
+  * [Provisioning](docs/rancher-provisioning.md)  
+* Providers
+  * [3DS Outscale](docs/providers/3ds-outscale.md)
+  * [Amazon AWS](docs/providers/amazon-aws.md)
+  * [Google GCP](docs/providers/google-gcp.md)
+  * [Microsoft Azure](docs/providers/microsoft-azure.md)
+  * [Nutanix](docs/providers/nutanix.md)
+  * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Security](docs/security.md)
   * [NeuVector](docs/neuvector.md)
+* Virtualization
+  * [Harvester](docs/harvester.md)
 * Workstation
   * [Rancher Desktop](docs/rancher-desktop.md)
-
-## Additional content
-
-* Automation
-  * [Terraform-based quickstarts](https://github.com/rancher/quickstart)
-* Souscription
-  * [Support Matrix](https://www.suse.com/suse-rancher/support-matrix/)

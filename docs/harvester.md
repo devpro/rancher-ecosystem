@@ -4,6 +4,6 @@
 
 → [harvesterhci.io](https://harvesterhci.io/), [docs](https://docs.harvesterhci.io/), [GitHub](https://github.com/harvester/harvester)
 
-## Support
+## Commercial offer
 
 * [Support Matrix](https://www.suse.com/suse-harvester/support-matrix/all-supported-versions/harvester-v1-0-3/)

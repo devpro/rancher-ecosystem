@@ -5,15 +5,6 @@
 * [Launching Kubernetes with Rancher](https://docs.ranchermanager.rancher.io/pages-for-subheaders/launch-kubernetes-with-rancher)
 * [Cluster Management Resources](https://github.com/rancher/dashboard/blob/master/docusaurus/docs/code-base-works/cluster-management-resources.md)
 
-## Infrastructure providers
-
-* [3DS OUTSCALE Cloud](providers/3ds-outscale.md)
-* [Amazon AWS](providers/amazon-aws.md)
-* [Google GCP](providers/google-gcp.md)
-* [Microsoft Aure](providers/microsoft-azure.md)
-* [Nutanix](providers/nutanix.md)
-* [VMware vSphere](./providers/wmware-vsphere.md)
-
 ## Provisioning logic
 
 ### Drivers
