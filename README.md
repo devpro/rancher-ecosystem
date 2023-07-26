@@ -29,10 +29,11 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
   * [Rancher Academy](https://www.rancher.academy/)
-* [Observability](docs/observability.md)
-* Operating systems
-  * openSUSE
+* Linux distributions
+  * [openSUSE](docs/opensuse.md)
+  * [SLE Micro](docs/sle-micro.md)
   * [SLES](docs/sles.md)
+* [Observability](docs/observability.md)
 * Packaging
   * [Hypper](docs/hypper.md)
 * [Rancher](docs/rancher.md)

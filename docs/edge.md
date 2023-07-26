@@ -10,8 +10,8 @@
 * [k3s](k3s.md)
 * [LongHorn](longhorn.md)
 * [NeuVector](neuvector.md)
-* Rancher
-* SLE micro
+* [Rancher](rancher.md)
+* [SLE micro](sle-micro.md)
 
 ## Ecosystem
 
