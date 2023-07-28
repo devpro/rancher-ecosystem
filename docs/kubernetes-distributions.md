@@ -5,6 +5,8 @@ or with official CNCF validated distributions that strenghten the installation a
 
 ## CNCF certified
 
+Ref. [Certified Kubernetes Software Conformance](https://www.cncf.io/certification/software-conformance/)
+
 ### Open-source
 
 * [RKE](rke.md)
