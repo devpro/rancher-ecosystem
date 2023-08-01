@@ -1,6 +1,6 @@
 # Authentication
 
-## Documentation
+## Key features
 
 * [Users and Groups](https://docs.ranchermanager.rancher.io/how-to-guides/new-user-guides/authentication-permissions-and-global-configuration/authentication-config/manage-users-and-groups)
 * [Role-Based Access Control (RBAC)](https://docs.ranchermanager.rancher.io/pages-for-subheaders/manage-role-based-access-control-rbac)
@@ -43,3 +43,9 @@ and [Configure Keycloak (OIDC)](https://docs.ranchermanager.rancher.io/how-to-gu
 
 * Open Rancher
   * Configure a Keycloak OIDC account form, change Endpoints to Specify (advanced) and override the Issuer and Auth Endpoint values
+
+## Integrations
+
+### NeuVector
+
+* [horantj/rancher-nv-rbac](https://github.com/horantj/rancher-nv-rbac)
