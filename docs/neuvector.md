@@ -130,3 +130,9 @@ enforcer:
   tolerations:
     - operator: "Exists"
 ```
+
+## Integrations
+
+### Harbor
+
+* [Installing and Configuring NeuVector Harbor Registry Adapter](https://github.com/rancher/barn/blob/main/Walkthroughs/NeuVector/Harbor%20Adapter%20Configuration/README.md)
