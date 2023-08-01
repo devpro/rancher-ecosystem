@@ -19,7 +19,7 @@
 * [Rancher UI plugins](https://github.com/rancher/ui-plugin-charts)
   * [Elemental](https://github.com/rancher/elemental-ui) ([Helm chart](https://github.com/rancher/elemental-ui/tree/main/charts/elemental))
   * [Kubewarden](https://github.com/kubewarden/ui) ([Helm chart](https://github.com/kubewarden/ui/tree/main/charts/kubewarden))
-* [Rancher Partner Extensions](https://github.com/rancher/partner-extensions)
+* [Rancher Partner Extensions](https://github.com/rancher/partner-extensions) (installation simplified in Rancher UI, see [PR #9260](https://github.com/rancher/dashboard/pull/9260))
 
 ## Samples
 
