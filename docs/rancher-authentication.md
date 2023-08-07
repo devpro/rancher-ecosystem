@@ -49,3 +49,5 @@ and [Configure Keycloak (OIDC)](https://docs.ranchermanager.rancher.io/how-to-gu
 ### NeuVector
 
 * [horantj/rancher-nv-rbac](https://github.com/horantj/rancher-nv-rbac)
+  * [Roles](https://vimeo.com/790515566)
+  * [membership](https://vimeo.com/790248342)

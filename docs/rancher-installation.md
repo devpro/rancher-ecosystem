@@ -1,11 +1,5 @@
 # Installation of Rancher
 
-## Releases
-
-Version                                                             | Date       | Links
---------------------------------------------------------------------|------------|--------------------------------------------------------------------
-[**2.7.0**](https://github.com/rancher/rancher/releases/tag/v2.7.0) | 2022-11-16 | [Forums](https://forums.rancher.com/t/rancher-release-v2-7-0/39478)
-
 ## General procedures
 
 * [Install/Upgrade Rancher on a Kubernetes Cluster](https://docs.ranchermanager.rancher.io/pages-for-subheaders/install-upgrade-on-a-kubernetes-cluster)

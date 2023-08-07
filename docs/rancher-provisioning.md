@@ -1,9 +1,9 @@
 # Resource provisioning
 
-## General documentation
+## General features
 
 * [Launching Kubernetes with Rancher](https://docs.ranchermanager.rancher.io/pages-for-subheaders/launch-kubernetes-with-rancher)
-* [Cluster Management Resources](https://github.com/rancher/dashboard/blob/master/docusaurus/docs/code-base-works/cluster-management-resources.md)
+* [Cluster Management Resources](https://rancher.github.io/dashboard/code-base-works/cluster-management-resources)
 
 ## Provisioning logic
 
@@ -27,13 +27,15 @@ Drivers are [docker-machine](https://github.com/docker/machine) implementations 
 
 See also: [UI DevKit > Machine Drivers](https://rancher.github.io/dashboard/code-base-works/machine-drivers)
 
-### Distributions
+### Kubernetes distribution specifics
 
 #### RKE
 
 Rancher uses custom CRDs to create clusters and custom controllers that will be used with docker-machine drivers.
 
 Node templates are used to ease cluster creation.
+
+RKE1 cluster template exist but doesn't allow node pool configuration or RBAC.
 
 #### RKE2/K3s
 
@@ -43,6 +45,6 @@ Rancher uses the Cluster API controllers and CRDs internally. But it wraps its o
 
 When a Cluster (provisioning.cattle.io/v1) is created, various CAPI objects are generated: RKECluster, RKEControlPlane, Cluster, RKEBootstrapTemplate, MachineDeployment and infra specific kinds like Amazonec2MachineTemplate.
 
-Currently it is not easily possible to use other Cluster API providers with Rancher.
+Currently (January 2023) it is not easily possible to use other Cluster API providers with Rancher.
 
-Cluster template can be used to automate cluster creation in a GitOps way (see [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
+RKE2 cluster templates are Helm charts and can be used to automate cluster creation in a GitOps way (see [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
