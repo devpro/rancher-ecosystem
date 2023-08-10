@@ -31,3 +31,7 @@ Version                                                             | Date      
   * [Rancher barn](https://github.com/rancher/barn)
 * Subscription
   * [Support matrix for Rancher](https://www.suse.com/suse-rancher/support-matrix/all-supported-versions/rancher-v2-7-5/)
+
+## Alternatives
+
+* [Kubermatic](https://github.com/kubermatic/kubermatic)
