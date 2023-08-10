@@ -41,9 +41,9 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [Architecture](docs/rancher-architecture.md)
   * [Authentication](docs/rancher-authentication.md)
   * [Automation](docs/rancher-automation.md)
-  * [Backup](docs/rancher-backup.md)
   * [Extensions](docs/rancher-extensions.md)
   * [Installation](docs/rancher-installation.md)
+  * [Operations](docs/rancher-operations.md)
   * [Provisioning](docs/rancher-provisioning.md)  
 * Providers
   * [3DS Outscale](docs/providers/3ds-outscale.md)
