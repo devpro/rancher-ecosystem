@@ -48,3 +48,5 @@ When a Cluster (provisioning.cattle.io/v1) is created, various CAPI objects are 
 Currently (January 2023) it is not easily possible to use other Cluster API providers with Rancher.
 
 RKE2 cluster templates are Helm charts and can be used to automate cluster creation in a GitOps way (see [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
+
+Chart that can be used to try cluster creation through Rancher templates: [devpro/helm-charts](https://github.com/devpro/helm-charts/tree/main/charts/rancher-cluster-templates).
