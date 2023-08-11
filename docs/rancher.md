@@ -23,6 +23,9 @@ Version                                                             | Date      
 [**2.7.5**](https://github.com/rancher/rancher/releases/tag/v2.7.5) | 2023-06-29 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-5/40993)
 [**2.7.0**](https://github.com/rancher/rancher/releases/tag/v2.7.0) | 2022-11-16 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-0/39478)
 [**2.6.0**](https://github.com/rancher/rancher/releases/tag/v2.6.0) | 2021-08-31 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-6-0/21048)
+[**2.5.0**](https://github.com/rancher/rancher/releases/tag/v2.5.0) | 2020-10-06 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-5-0/18510)
+
+[Go further](rancher-versions.md)
 
 ## Goodies
 

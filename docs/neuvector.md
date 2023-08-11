@@ -4,6 +4,10 @@
 
 → [neuvector.com](https://neuvector.com/) ([docs](https://docs.neuvector.com/), [GitHub](https://github.com/neuvector/neuvector), [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf))
 
+## Content
+
+* [Architecture](neuvector-architecture.md)
+
 ## Features
 
 * Automated _Behavioral-Based_ Zero-Trust modes
@@ -38,23 +42,6 @@
   * [NeuVector - 101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
   * [NeuVector Minute - Installing NeuVector on Rancher](https://www.youtube.com/watch?v=cc8nA7nxuDc) - Nov 12, 2020
   * [Zero-Trust Security for Kubernetes and Container Workloads](https://www.youtube.com/watch?v=SzNbJ7W3Mik) - March 29, 2022
-
-## Architecture
-
-### Kubernetes objects
-
-* Controller
-  * Manage policies REST API
-
-* Scanner
-
-* Web UI
-  * Manager User Interface
-  * CLI tool
-
-* Enforcer (DaemonSet)
-  * Enforce Securities Policies
-  * Inspect Network Traffic
 
 ## Versions
 

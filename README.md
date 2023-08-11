@@ -2,25 +2,29 @@
 
 [![Pages](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml)
 
-You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Container Management) solution.
+Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Container Management) solution!
 
 ## Content
 
 * Continuous Deployment (GitOps)
-  * [Fleet](docs/fleet.md)
+  * [**Fleet**](docs/fleet.md)
 * [Edge](docs/edge.md)
-  * [Elemental](docs/elemental.md)
+  * [**Elemental**](docs/elemental.md)
+* Infrastructure providers
+  * [3DS Outscale](docs/providers/3ds-outscale.md)
+  * [Amazon AWS](docs/providers/amazon-aws.md)
+  * [Google GCP](docs/providers/google-gcp.md)
+  * [Microsoft Azure](docs/providers/microsoft-azure.md)
+  * [Nutanix](docs/providers/nutanix.md)
+  * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * Kubernetes
   * [Distributions](docs/kubernetes-distributions.md)
-    * [K3s](docs/k3s.md)
-    * [RKE1](docs/rke.md)
-    * [RKE2](docs/rke2.md)
+    * [**K3s**](docs/k3s.md)
+    * [**RKE1**](docs/rke.md)
+    * [**RKE2**](docs/rke2.md)
   * [Multitenancy](docs/kubernetes-multitenancy.md)
-  * [Networking](docs/kubernetes-networking.md)
   * Policy
-    * [Kubewarden](docs/kubewarden.md)
-  * [Storage](docs/kubernetes-storage.md)
-    * [Longhorn](docs/longhorn.md)
+    * [**Kubewarden**](docs/kubewarden.md)
   * [Tuning](docs/kubernetes-tuning.md)
   * [Utilities](docs/kubernetes-utilities.md)
 * [GPUs](docs/gpu.md)
@@ -28,33 +32,25 @@ You'll find here documentation about SUSE Rancher ecosystem, aka SUSE ECM (Enter
   * [NVIDIA](docs/providers/nvidia.md)
 * Learning platforms
   * [HobbyFarm](docs/hobbyfarm.md)
-  * [Rancher Academy](https://www.rancher.academy/)
 * Linux distributions
-  * [openSUSE](docs/opensuse.md)
-  * [SLE Micro](docs/sle-micro.md)
-  * [SLES](docs/sles.md)
+  * [**openSUSE**](docs/opensuse.md)
+  * [**SLE Micro**](docs/sle-micro.md)
+  * [**SLES**](docs/sles.md)
+* Management
+  * [**Rancher**](docs/rancher.md) ← good starting point
+* [Networking](docs/networking.md)
 * [Observability](docs/observability.md)
 * Packaging
   * [Hypper](docs/hypper.md)
-* [Rancher](docs/rancher.md)
-  * [Applications](docs/rancher-apps.md)
-  * [Architecture](docs/rancher-architecture.md)
-  * [Authentication](docs/rancher-authentication.md)
-  * [Automation](docs/rancher-automation.md)
-  * [Extensions](docs/rancher-extensions.md)
-  * [Installation](docs/rancher-installation.md)
-  * [Operations](docs/rancher-operations.md)
-  * [Provisioning](docs/rancher-provisioning.md)  
-* Providers
-  * [3DS Outscale](docs/providers/3ds-outscale.md)
-  * [Amazon AWS](docs/providers/amazon-aws.md)
-  * [Google GCP](docs/providers/google-gcp.md)
-  * [Microsoft Azure](docs/providers/microsoft-azure.md)
-  * [Nutanix](docs/providers/nutanix.md)
-  * [VMware vSphere](docs/providers/wmware-vsphere.md)
 * [Security](docs/security.md)
-  * [NeuVector](docs/neuvector.md)
+  * [**NeuVector**](docs/neuvector.md)
+* [Storage](docs/storage.md)
+  * [**Longhorn**](docs/longhorn.md)
 * Virtualization
-  * [Harvester](docs/harvester.md)
+  * [**Harvester**](docs/harvester.md)
 * Workstation
-  * [Rancher Desktop](docs/rancher-desktop.md)
+  * [**Rancher Desktop**](docs/rancher-desktop.md)
+
+## Goodies
+
+* [Rancher Academy](https://www.rancher.academy/)
