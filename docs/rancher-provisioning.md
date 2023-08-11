@@ -33,7 +33,7 @@ See also: [UI DevKit > Machine Drivers](https://rancher.github.io/dashboard/code
 
 In V1 provisioning, clusters have nodes, nodePools, and nodeTemplates.
 
-#### Node Templates (V1 provisioning)
+#### Node Templates
 
 Node templates make it possible to reuse machine configs for RKE1 provisioning.
 
