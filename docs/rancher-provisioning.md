@@ -7,6 +7,8 @@
 
 ## Provisioning logic
 
+💡 Rancher v2.6.0 introduces V2 cluster provisioning that leverages [CAPI](https://cluster-api.sigs.k8s.io/) resources including Clusters and MachineDeployments to define and manage the desired state of downstream RKE2 and K3s clusters
+
 ### Drivers
 
 From Rancher UI, drivers can be viewed and managed from **Cluster Management > Drivers page**.
@@ -19,13 +21,35 @@ See also: [Kontainer Engine Example Driver](https://github.com/rancher-plugins/k
 
 #### Node drivers
 
+Drivers are [docker-machine](https://github.com/docker/machine) implementations for each provider, whether for RKE or RKE2/K3s. It is an API to create and delete VMs.
+
 Built-in node drivers are defined in [rancher/machine](https://github.com/rancher/machine/tree/master/drivers).
 
 Additional node drivers are added in [rancher/rancher](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L74).
 
-Drivers are [docker-machine](https://github.com/docker/machine) implementations for each provider, whether for RKE or RKE2/K3s. It is an API to create and delete VMs.
-
 See also: [UI DevKit > Machine Drivers](https://rancher.github.io/dashboard/code-base-works/machine-drivers)
+
+### Templates (V1 provisioning)
+
+In V1 provisioning, clusters have nodes, nodePools, and nodeTemplates.
+
+#### Node Templates (V1 provisioning)
+
+Node templates make it possible to reuse machine configs for RKE1 provisioning.
+
+### Templates (V2 provisioning)
+
+In V2 provisioning, clusters have [Machines](https://cluster-api.sigs.k8s.io/user/concepts.html#machine) which are instances of MachineTemplates and have a specific configuration for each infrastructure provider.
+
+#### MachineTemplates
+
+#### Cluster templates
+
+> Cluster templates encompass both Kubernetes configuration and node pool configuration, allowing a single template to contain all the information Rancher needs to provision new nodes in a cloud provider and install Kubernetes on those nodes. (ref. [How-to Guides > New User Guides > Manage Clusters](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/manage-clusters/manage-cluster-templates))
+
+Currently (August 2023) examples are only provided for RKE2.
+
+See also: [devpro/helm-charts](https://github.com/devpro/helm-charts/tree/main/charts/rancher-cluster-templates), [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
 
 ### Kubernetes distribution specifics
 
@@ -46,7 +70,3 @@ Rancher uses the Cluster API controllers and CRDs internally. But it wraps its o
 When a Cluster (provisioning.cattle.io/v1) is created, various CAPI objects are generated: RKECluster, RKEControlPlane, Cluster, RKEBootstrapTemplate, MachineDeployment and infra specific kinds like Amazonec2MachineTemplate.
 
 Currently (January 2023) it is not easily possible to use other Cluster API providers with Rancher.
-
-RKE2 cluster templates are Helm charts and can be used to automate cluster creation in a GitOps way (see [Kubernetes Master Class: Creating RKE2 Cluster Templates](https://youtu.be/xXtOP7CHbSA)).
-
-Chart that can be used to try cluster creation through Rancher templates: [devpro/helm-charts](https://github.com/devpro/helm-charts/tree/main/charts/rancher-cluster-templates).
