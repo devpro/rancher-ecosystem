@@ -28,6 +28,7 @@ Version                                                             | Date      
 
 ## Goodies
 
+* [Rancher Best Practices](https://www.suse.com/support/kb/doc/?id=000020105)
 * [Rancher Brand Guidelines & Resources](https://www.rancher.com/brand-guidelines)
 * [Rancher Forums](https://forums.rancher.com/)
 * [Rancher UI DevKit](https://rancher.github.io/dashboard/)

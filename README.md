@@ -54,3 +54,4 @@ Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Cont
 ## Goodies
 
 * [Rancher Academy](https://www.rancher.academy/)
+* [SUSE Product Support Lifecycle](https://www.suse.com/lifecycle/)
