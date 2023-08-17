@@ -41,12 +41,17 @@ kubectl apply -f samples/gitrepo-guestbook-sample.yaml -n fleet-sample
 kubectl get fleet -n fleet-sample
 ```
 
+## Configuration
+
+* [Git Repository Contents](https://fleet.rancher.io/gitrepo-content)
+  * [`fleet.yaml`](https://fleet.rancher.io/ref-fleet-yaml)
+
 ## Samples
 
 * [Martin Weiss](https://github.com/Martin-Weiss/rancher-fleet)
 * [SUSE Exchange Paris 2023](https://github.com/devpro/helm-charts/tree/main/samples/suse-exchange-paris-2023)
 
-## Competition
+## Alternatives
 
 Name       | Model
 -----------|------
