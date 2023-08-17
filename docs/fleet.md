@@ -2,7 +2,7 @@
 
 > Fleet is a container management and deployment engine designed to offer users more control on the local cluster and constant monitoring through GitOps
 
-→ [fleet.rancher.io](https://fleet.rancher.io/), [GitHub](https://github.com/rancher/fleet)
+→ [fleet.rancher.io](https://fleet.rancher.io/), [code](https://github.com/rancher/fleet)
 
 ## Quick start
 
@@ -48,6 +48,7 @@ kubectl get fleet -n fleet-sample
 
 ## Samples
 
+* [Fleet examples](https://github.com/rancher/fleet-examples)
 * [Martin Weiss](https://github.com/Martin-Weiss/rancher-fleet)
 * [SUSE Exchange Paris 2023](https://github.com/devpro/helm-charts/tree/main/samples/suse-exchange-paris-2023)
 
