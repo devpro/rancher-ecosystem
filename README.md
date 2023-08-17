@@ -46,6 +46,7 @@ Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Cont
   * [**NeuVector**](docs/neuvector.md)
 * [Storage](docs/storage.md)
   * [**Longhorn**](docs/longhorn.md)
+  * [**s3gw**](docs/s3gw.md)
 * Virtualization
   * [**Harvester**](docs/harvester.md)
 * Workstation
@@ -55,3 +56,4 @@ Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Cont
 
 * [Rancher Academy](https://www.rancher.academy/)
 * [SUSE Product Support Lifecycle](https://www.suse.com/lifecycle/)
+* [SUSE Technical Reference Documentation](https://documentation.suse.com/trd-supported.html)

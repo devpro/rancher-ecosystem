@@ -70,6 +70,10 @@ Name       | Model
 
 * You may encounter the issue `Error while running post render on files: invalid cluster scoped object [name=* kind=PodSecurityPolicy apiVersion=policy/v1beta1] found, consider using "defaultNamespace", not "namespace" in fleet.yaml`
 
+### Modified GitRepos
+
+* [Generating Diffs to Ignore Modified GitRepos](https://fleet.rancher.io/bundle-diffs)
+
 ## Troubleshoot
 
 ### Fleet Kubernetes objects

@@ -4,6 +4,7 @@
 
 * [Install/Upgrade Rancher on a Kubernetes Cluster](https://docs.ranchermanager.rancher.io/pages-for-subheaders/install-upgrade-on-a-kubernetes-cluster)
 * [Rancher Upgrade Checklist](https://www.suse.com/support/kb/doc/?id=000020061)
+* [Rancher Upgrade FAQ](https://www.suse.com/support/kb/doc/?id=000020727)
 
 ## Providers
 
