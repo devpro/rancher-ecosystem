@@ -23,7 +23,7 @@ Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Cont
     * [**RKE1**](docs/rke.md)
     * [**RKE2**](docs/rke2.md)
   * [Multitenancy](docs/kubernetes-multitenancy.md)
-  * Policy
+  * [Policies](docs/kubernetes-policies.md)
     * [**Kubewarden**](docs/kubewarden.md)
   * [Tuning](docs/kubernetes-tuning.md)
   * [Utilities](docs/kubernetes-utilities.md)
