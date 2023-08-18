@@ -9,7 +9,7 @@
 ### Getting to know Fleet
 
 * Youtube videos
-  * [GitOps The Planet (E4) | GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
+  * [GitOps The Planet (E4) - GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
   * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
 
 ### Install Fleet objects in your Kubernetes cluster
@@ -55,7 +55,7 @@ kubectl get fleet -n fleet-sample
 ## Alternatives
 
 Name       | Model
------------|------
+:--------- | :----
 **ArgoCD** | Push
 **Fleet**  | Pull
 **Flux**   | Pull
@@ -79,7 +79,7 @@ Name       | Model
 ### Fleet Kubernetes objects
 
 Kind                                      | Name
-------------------------------------------|-------------------------
+:---------------------------------------- | :------------------------
 bundles.fleet.cattle.io                   | CustomResourceDefinition
 bundledeployments.fleet.cattle.io         | CustomResourceDefinition
 bundlenamespacemappings.fleet.cattle.io   | CustomResourceDefinition
