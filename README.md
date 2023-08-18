@@ -6,7 +6,7 @@ Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Cont
 
 ## Content
 
-* Continuous Deployment (GitOps)
+* Continuous Deployment with GitOps
   * [**Fleet**](docs/fleet.md)
 * [Edge](docs/edge.md)
   * [**Elemental**](docs/elemental.md)
