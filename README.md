@@ -2,7 +2,9 @@
 
 [![Pages](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/rancher-ecosystem/actions/workflows/pages.yml)
 
-Let's learn together about SUSE Rancher ecosystem, aka SUSE ECM (Enterprise Container Management) solution!
+Let's learn together about SUSE Cloud Native ecosystem, aka ECM (Enterprise Container Management) solution!
+
+💡 Feel free to [contribute](CONTRIBUTING.md)
 
 ## Content
 
