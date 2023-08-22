@@ -83,3 +83,15 @@ helm upgrade --install ingress-nginx ingress-nginx \
 # checks NGINX Ingress Controller service (if EXTERNAL-IP gets stuck at <pending> then you need to look at the Cloud Provider configuration)
 kubectl --namespace ingress-nginx get services -o wide ingress-nginx-controller
 ```
+
+## Known issues
+
+### AKS cluster on a service princical with a new secret
+
+Once the secret used by the Cloud Credentials is revoked, we have to create another one and may prevent the AKS cluster from starting. In this case run the following command:
+
+```bash
+az aks update-credentials --resource-group rg-xxxx --name aks-xxxx --reset-service-principal --service-principal "xxxx" --client-secret "xxxx"
+```
+
+See [AKS startup error “Token refresh failed with invalid client secret error”](https://blog-bertrand-thomas.devpro.fr/2023/08/22/aks-startup-error-token-refresh-failed-with-invalid-client-secret-error/) for more information.
