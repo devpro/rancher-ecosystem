@@ -7,15 +7,25 @@
 3. Commit and push your changes
 4. Create a Pull Request
 
+## Project layout
+
+```text
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files, with names in kebab-case.
+```
+
+## Commands
+
+```bash
+# builds locally and starts a local server (works with GitHub Codespace)
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+```
+
 ## Design
 
-The website uses [Architect Jekyll theme for GitHub Pages](https://github.com/pages-themes/architect).
-
-The template is selected from [`_config.yml`](_config.yml) and can be customized through [`assets/css/style.scss`](assets/css/style.scss).
-
-## Edition
-
-Content files are stored in `docs` folder and used to generate the HTML pages. File names should be in `kebab-case`.
+The website uses [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to build the web pages.
 
 ## Hosting
 

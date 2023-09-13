@@ -1,0 +1,76 @@
+site_name: Rancher Ecosystem
+site_url: https://devpro.github.io/rancher-ecosystem/
+site_author: Bertrand Thomas
+site_description: >-
+  Let's learn together about SUSE Cloud Native ecosystem, aka ECM (Enterprise Container Management) solution!
+repo_name: devpro/rancher-ecosystem
+repo_url: https://github.com/devpro/rancher-ecosystem
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  palette:
+    - scheme: default
+      primary: green
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Areas:
+    - Edge: edge.md
+    - GPUs: gpu.md
+    - Kubernetes:
+      - Distributions: kubernetes-distributions.md
+      - Multitenancy: kubernetes-multitenancy.md
+      - Policies: kubernetes-policies.md
+      - Tuning: kubernetes-tuning.md
+      - Utilities: kubernetes-utilities.md
+    - Networking: networking.md
+    - Observability: observability.md
+    - Security: security.md
+    - Storage: storage.md
+  - Products:
+    - Elemental: elemental.md
+    - Fleet: fleet.md
+    - Harvester: harvester.md
+    - HobbyFarm: hobbyfarm.md
+    - Hypper: hypper.md
+    - K3s: k3s.md
+    - Kubewarden: kubewarden.md
+    - Longhorn: longhorn.md
+    - NeuVector:
+      - neuvector.md
+      - neuvector-architecture.md
+    - openSUSE: opensuse.md
+    - Rancher:
+      - rancher.md
+      - Applications: rancher-apps.md
+      - Authentication: rancher-authentication.md
+      - Automation: rancher-automation.md
+      - Extensions: rancher-extensions.md
+      - Getting started: rancher-gettingstarted.md
+      - Installation: rancher-installation.md
+      - Operations: rancher-operations.md
+      - Provisioning: rancher-provisioning.md
+      - Versions: rancher-versions.md
+    - Rancher Desktop: rancher-desktop.md
+    - RKE: rke.md
+    - RKE2: rke2.md
+    - s3gw: s3gw.md
+    - SLE Micro: sle-micro.md
+    - SLES: sles.md
+  - Providers:
+    - 3DS Outscale: providers/3ds-outscale.md
+    - AMD: providers/amd.md
+    - Amazon AWS: providers/amazon-aws.md
+    - Google GCP: providers/google-gcp.md
+    - Microsoft Azure: providers/microsoft-azure.md
+    - Nutanix: providers/nutanix.md
+    - NVIDIA: providers/nvidia.md
+    - VMware vSphere: providers/wmware-vsphere.md

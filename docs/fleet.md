@@ -55,7 +55,7 @@ kubectl get fleet -n fleet-sample
 ## Alternatives
 
 Name       | Model
-:--------- | :----
+---------- | ----
 **ArgoCD** | Push
 **Fleet**  | Pull
 **Flux**   | Pull
@@ -79,7 +79,7 @@ Name       | Model
 ### Fleet Kubernetes objects
 
 Kind                                      | Name
-:---------------------------------------- | :------------------------
+----------------------------------------- | ------------------------
 bundles.fleet.cattle.io                   | CustomResourceDefinition
 bundledeployments.fleet.cattle.io         | CustomResourceDefinition
 bundlenamespacemappings.fleet.cattle.io   | CustomResourceDefinition

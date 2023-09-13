@@ -1,5 +1,0 @@
-title: Rancher Ecosystem
-description: Explore Cloud Native world with SUSE components
-plugins:
-  - jekyll-remote-theme
-remote_theme: pages-themes/architect@v0.2.0

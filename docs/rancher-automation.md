@@ -8,7 +8,7 @@
 
 ### Kubernetes management cluster with Rancher
 
-![Cluster creation diagram](../assets/images/Provisioning_logic-Rancher_cluster_creation.svg)
+![Cluster creation diagram](assets/images/Provisioning_logic-Rancher_cluster_creation.svg)
 
 ### RKE1 cluster from Rancher
 
