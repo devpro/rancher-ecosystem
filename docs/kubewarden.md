@@ -10,4 +10,4 @@
 
 ## Alternatives
 
-See [Kubernetes policies implementations](kubernetes-policies.md#implementations).
+See [Kubernetes policies implementations](kubernetes/policies.md#implementations).

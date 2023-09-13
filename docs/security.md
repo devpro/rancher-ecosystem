@@ -43,7 +43,7 @@ Abbreviation | Meaning                                     | Links
 ## Tools
 
 * [Kubescape](https://github.com/kubescape/kubescape)
-* [NeuVector](./neuvector.md)
+* [NeuVector](neuvector/index.md)
 * [OpenSCAP](https://www.open-scap.org/)
 
 ## Training

@@ -48,14 +48,14 @@
 
 * Create the VMs
   * From the web UI
-  * With Azure CLI: [quick start](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli), [tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm), [sample](../samples/scripts/az-vm.sh)
+  * With Azure CLI: [quick start](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli), [tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm), `samples/scripts/az-vm.sh`
   * With an IaC tool, such as Azure Resource Manager or Terraform
 
 ### RKE2 quickstart
 
 * Connect with SSH: `ssh <username>@<ip_or_hostname>`
 
-* Follow the [Quick Start](https://docs.rke2.io/install/quickstart/), see the [example script](../samples/scripts/az-rke2.sh)
+* Follow the [Quick Start](https://docs.rke2.io/install/quickstart/), see the `samples/scripts/az-rke2.sh`
 
 * Once created and running fine, import the cluster in Rancher, execute the command line to register the cluster and make sure the agent is running fine and the cluster can be seen in Rancher
 
