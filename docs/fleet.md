@@ -64,7 +64,7 @@ Name       | Model
 
 ### Helm chart dependencies
 
-* tgz files in charts folder (coming from `helm dependency update`) must be added to git to be picked up by Fleet
+* tgz files in charts folder (coming from `helm dependency update`) must be added to git to be picked up by Fleet (see [issue #250](https://github.com/rancher/fleet/issues/250))
 
 ### Helm chart with objects on multiple namespaces
 
