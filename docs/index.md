@@ -10,7 +10,7 @@ Let's learn together about SUSE Cloud Native ecosystem, aka ECM (Enterprise Cont
 
 ## Sections
 
-[:fontawesome-solid-industry: Edge](edge.md){ .md-button }
+[:fontawesome-solid-area: Area](edge.md){ .md-button }
 [:fontawesome-solid-cart-shopping: Products](elemental.md){ .md-button }
 [:fontawesome-solid-cloud: Providers](providers/3ds-outscale.md){ .md-button }
 
