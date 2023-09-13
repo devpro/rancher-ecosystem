@@ -6,7 +6,7 @@
 
 ## Content
 
-* [Architecture](neuvector-architecture.md)
+* [Architecture](architecture.md)
 
 ## Features
 

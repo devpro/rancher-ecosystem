@@ -9,6 +9,9 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
   palette:
     - scheme: default
       primary: green
@@ -20,17 +23,25 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Home: index.md
   - Areas:
     - Edge: edge.md
     - GPUs: gpu.md
     - Kubernetes:
-      - Distributions: kubernetes-distributions.md
-      - Multitenancy: kubernetes-multitenancy.md
-      - Policies: kubernetes-policies.md
-      - Tuning: kubernetes-tuning.md
-      - Utilities: kubernetes-utilities.md
+      - Distributions: kubernetes/distributions.md
+      - Multitenancy: kubernetes/multitenancy.md
+      - Policies: kubernetes/policies.md
+      - Tuning: kubernetes/tuning.md
+      - Utilities: kubernetes/utilities.md
     - Networking: networking.md
     - Observability: observability.md
     - Security: security.md
@@ -45,20 +56,22 @@ nav:
     - Kubewarden: kubewarden.md
     - Longhorn: longhorn.md
     - NeuVector:
-      - neuvector.md
-      - neuvector-architecture.md
+      - neuvector/index.md
+      - Architecture: neuvector/architecture.md
     - openSUSE: opensuse.md
     - Rancher:
-      - rancher.md
-      - Applications: rancher-apps.md
-      - Authentication: rancher-authentication.md
-      - Automation: rancher-automation.md
-      - Extensions: rancher-extensions.md
-      - Getting started: rancher-gettingstarted.md
-      - Installation: rancher-installation.md
-      - Operations: rancher-operations.md
-      - Provisioning: rancher-provisioning.md
-      - Versions: rancher-versions.md
+      - rancher/index.md
+      - Applications: rancher/applications.md
+      - Architecture: rancher/architecture.md
+      - Authentication: rancher/authentication.md
+      - Automation: rancher/automation.md
+      - Extensions: rancher/extensions.md
+      - Getting started: rancher/gettingstarted.md
+      - Installation: rancher/installation.md
+      - Migrations: rancher/migrations.md
+      - Operations: rancher/operations.md
+      - Provisioning: rancher/provisioning.md
+      - Versions: rancher/versions.md
     - Rancher Desktop: rancher-desktop.md
     - RKE: rke.md
     - RKE2: rke2.md

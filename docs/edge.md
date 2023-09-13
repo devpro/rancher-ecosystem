@@ -9,8 +9,8 @@
 * [Elemental](elemental.md)
 * [k3s](k3s.md)
 * [LongHorn](longhorn.md)
-* [NeuVector](neuvector.md)
-* [Rancher](rancher.md)
+* [NeuVector](neuvector/index.md)
+* [Rancher](rancher/index.md)
 * [SLE micro](sle-micro.md)
 
 ## Ecosystem

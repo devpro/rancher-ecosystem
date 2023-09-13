@@ -6,7 +6,7 @@
 
 ## Implementations
 
-* [**Kubewarden**](kubewarden.md)
+* [**Kubewarden**](../kubewarden.md)
 * [Kyverno](https://kyverno.io) ([code](https://github.com/kyverno/kyverno))
 * [OPA (Open Policy Agent) Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website) ([code](https://github.com/open-policy-agent/gatekeeper))
 * [Polaris](https://www.fairwinds.com/polaris) ([code](https://github.com/FairwindsOps/polaris))

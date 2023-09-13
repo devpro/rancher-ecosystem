@@ -9,9 +9,9 @@ Ref. [Certified Kubernetes Software Conformance](https://www.cncf.io/certificati
 
 ### Open-source
 
-* [RKE](rke.md)
-* [RKE2](rke2.md)
-* [K3s](k3s.md)
+* [RKE](../rke.md)
+* [RKE2](../rke2.md)
+* [K3s](../k3s.md)
 
 ### Closed-source
 

@@ -6,16 +6,16 @@
 
 ## Content
 
-* [Applications](rancher-apps.md)
-* [Architecture](rancher-architecture.md)
-* [Authentication](rancher-authentication.md)
-* [Automation](rancher-automation.md.md)
-* [Extensions](rancher-extensions.md)
-* [Getting started](rancher-gettingstarted.md) ← good starting point
-* [Installation](rancher-installation.md)
-* [Migrations](rancher-migrations.md)
-* [Operations](rancher-operations.md)
-* [Provisioning](rancher-provisioning.md)
+* [Applications](applications.md)
+* [Architecture](architecture.md)
+* [Authentication](authentication.md)
+* [Automation](automation.md)
+* [Extensions](extensions.md)
+* [Getting started](gettingstarted.md) ← good starting point
+* [Installation](installation.md)
+* [Migrations](migrations.md)
+* [Operations](operations.md)
+* [Provisioning](provisioning.md)
 
 ## Releases
 
@@ -25,7 +25,7 @@ Version                                                             | Date      
 [**2.7.0**](https://github.com/rancher/rancher/releases/tag/v2.7.0) | 2022-11-16 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-0/39478)
 [**2.6.0**](https://github.com/rancher/rancher/releases/tag/v2.6.0) | 2021-08-31 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-6-0/21048)
 
-[See more](rancher-versions.md)
+[See more](versions.md)
 
 ## Goodies
 

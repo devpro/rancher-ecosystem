@@ -2,7 +2,7 @@
 
 ## Overview
 
-![archivecture overview](assets/images/neuvector-architecture-overview.png)
+![archivecture overview](../assets/images/neuvector-architecture-overview.png)
 
 Ref. [Basics > Overview](https://docs.neuvector.com/basics/overview)
 
