@@ -1,11 +1,11 @@
 # Areas
 
-[:material-image-area: Edge](../edge.md){ .md-button .md-button--primary }
-[:material-image-area: GPUs](../gpu.md){ .md-button .md-button--primary }
-[:material-image-area: Kubernetes](../kubernetes/distributions.md){ .md-button .md-button--primary }
+[Edge](../edge.md){ .md-button .md-button--primary }
+[GPUs](../gpu.md){ .md-button .md-button--primary }
+[Kubernetes](../kubernetes/distributions.md){ .md-button .md-button--primary }
 
-[:material-image-area: Networking](../networking.md){ .md-button .md-button--primary }
-[:material-image-area: Observability](../observability.md){ .md-button .md-button--primary }
-[:material-image-area: Security](../security.md){ .md-button .md-button--primary }
+[Networking](../networking.md){ .md-button .md-button--primary }
+[Observability](../observability.md){ .md-button .md-button--primary }
+[Security](../security.md){ .md-button .md-button--primary }
 
-[:material-image-area: Storage](../security.md){ .md-button .md-button--primary }
+[Storage](../security.md){ .md-button .md-button--primary }
