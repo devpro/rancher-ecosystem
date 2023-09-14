@@ -11,4 +11,3 @@
 ## Presentations
 
 * [Global Online Meetup: Elemental](https://www.youtube.com/watch?v=-uenjgsxI5U) - July 19, 2023
- 

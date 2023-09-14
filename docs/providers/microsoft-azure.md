@@ -23,7 +23,7 @@ Name                               | Type
 ### Install Rancher on AKS
 
 * [Installing Rancher on AKS](https://docs.ranchermanager.rancher.io/getting-started/installation-and-upgrade/install-upgrade-on-a-kubernetes-cluster/rancher-on-aks)
-  * `samples/scripts/aks-rancher-installation.sh`
+    * `samples/scripts/aks-rancher-installation.sh`
 
 ### Provision AKS from Rancher
 
@@ -32,8 +32,8 @@ Name                               | Type
 In order to authenticate and authorize actions against Azure, you need to create an Azure Active Directory (AD) application. It can be done through the web UI (portal) or the command line.
 
 * [Use the portal](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
-  * In `Azure Active Directory` > `App registrations`, register a new application and save the value of Tenant ID, client ID, client secret
-  * In `Subscription` > `IAM`, assign a Contributor role to the application and save the Subscription ID value
+    * In `Azure Active Directory` > `App registrations`, register a new application and save the value of Tenant ID, client ID, client secret
+    * In `Subscription` > `IAM`, assign a Contributor role to the application and save the Subscription ID value
 
 Then, in Rancher add the newly created credentials.
 
@@ -42,33 +42,33 @@ Then, in Rancher add the newly created credentials.
 #### AKS Kubernetes cluster creation from Rancher
 
 * In `Cluster Management`, click on `Create` (it will the provider selection page)
-  * Under `Provision new nodes and create a cluster using RKE2/K3s` (make sure `RKE2/K3s` is checked), click on `Azure` (it will open the `Cluster: Create Azure` form)
-    * Under `Machine Pools`,  click on `Show Advanced` and make sure to override all Azure ressource names
-    * Under `Cluster Configuration` > `Basics`, select "Azure" in `Cloud Provider` list and fill `Cloud Provider Config` field (see [Setting up the Azure Cloud Provider](https://rancher.com/docs/rancher/v2.6/en/cluster-provisioning/rke-clusters/cloud-providers/azure/))
+    * Under `Provision new nodes and create a cluster using RKE2/K3s` (make sure `RKE2/K3s` is checked), click on `Azure` (it will open the `Cluster: Create Azure` form)
+        * Under `Machine Pools`,  click on `Show Advanced` and make sure to override all Azure ressource names
+        * Under `Cluster Configuration` > `Basics`, select "Azure" in `Cloud Provider` list and fill `Cloud Provider Config` field (see [Setting up the Azure Cloud Provider](https://rancher.com/docs/rancher/v2.6/en/cluster-provisioning/rke-clusters/cloud-providers/azure/))
 
-    ```json
-    {   
-      "cloud":"AzurePublicCloud",
-      "tenantId": "<tenant_id>",
-      "aadClientId": "<azuread_application_clientid>",
-      "aadClientSecret": "<azuread_application_clientsecret>",
-      "subscriptionId": "<azuread_application_clientid>",
-      "resourceGroup": "<rg_name>",
-      "location": "<azure_location>",
-      "subnetName": "<subnet_name>",
-      "securityGroupName": "<nsg_name>",
-      "securityGroupResourceGroup": "<rg_name>",
-      "vnetName": "<vnet_name>",
-      "vnetResourceGroup": "<rg_name>",
-      "primaryAvailabilitySetName": "<avs_name>",
-      "routeTableResourceGroup": "<rg_name>",
-      "cloudProviderBackoff": false,
-      "useManagedIdentityExtension": false,
-      "useInstanceMetadata": true
-    }
-    ```
+        ```json
+        {   
+          "cloud":"AzurePublicCloud",
+          "tenantId": "<tenant_id>",
+          "aadClientId": "<azuread_application_clientid>",
+          "aadClientSecret": "<azuread_application_clientsecret>",
+          "subscriptionId": "<azuread_application_clientid>",
+          "resourceGroup": "<rg_name>",
+          "location": "<azure_location>",
+          "subnetName": "<subnet_name>",
+          "securityGroupName": "<nsg_name>",
+          "securityGroupResourceGroup": "<rg_name>",
+          "vnetName": "<vnet_name>",
+          "vnetResourceGroup": "<rg_name>",
+          "primaryAvailabilitySetName": "<avs_name>",
+          "routeTableResourceGroup": "<rg_name>",
+          "cloudProviderBackoff": false,
+          "useManagedIdentityExtension": false,
+          "useInstanceMetadata": true
+        }
+        ```
 
-    * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false` (see [Rancher issue #34367](https://github.com/rancher/rancher/issues/34367))
+        * Under `Cluster Configuration` > `Advanced` > `Additional Controller Manager Args`, click `Add` and add the flag `--configure-cloud-routes=false` (see [Rancher issue #34367](https://github.com/rancher/rancher/issues/34367))
 
 ### Use Azure VM as Kubernetes nodes
 

@@ -7,19 +7,19 @@
 ## Components
 
 * Single binary
-  * [containerd](https://containerd.io/)
-  * [flannel](https://github.com/flannel-io/flannel)
-  * [CoreDNS](https://coredns.io/)
-  * iptables
-  * [SQLite](https://www.sqlite.org/)
-  * [klipper-lb](https://github.com/k3s-io/klipper-lb)
-  * [Helm](https://helm.sh/)
-  * [traefik](https://traefik.io/) Ingress Controller
+    * [containerd](https://containerd.io/)
+    * [flannel](https://github.com/flannel-io/flannel)
+    * [CoreDNS](https://coredns.io/)
+    * iptables
+    * [SQLite](https://www.sqlite.org/)
+    * [klipper-lb](https://github.com/k3s-io/klipper-lb)
+    * [Helm](https://helm.sh/)
+    * [traefik](https://traefik.io/) Ingress Controller
 
 ## Knowledge
 
 * [Advanced Options and Configuration](https://rancher.com/docs/k3s/latest/en/advanced/)
-  * Auto-deploying manifests
+    * Auto-deploying manifests
 
 ## Cluster API
 

@@ -1,0 +1,6 @@
+# see https://github.com/DavidAnson/markdownlint
+default: true
+MD007:
+  indent: 4   # needed by PyMdown Extensions
+MD013:
+  line_length: 220

@@ -42,14 +42,14 @@
 ### Azure VM
 
 * Review VM specifications (example)
-  * Size: Standard_D2s_v3 (2 vcpus, 8 GiB memory)
-  * Operating System: Linux (Ubuntu 20.04)
-  * Location: West Europe
+    * Size: Standard_D2s_v3 (2 vcpus, 8 GiB memory)
+    * Operating System: Linux (Ubuntu 20.04)
+    * Location: West Europe
 
 * Create the VMs
-  * From the web UI
-  * With Azure CLI: [quick start](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli), [tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm), `samples/scripts/az-vm.sh`
-  * With an IaC tool, such as Azure Resource Manager or Terraform
+    * From the web UI
+    * With Azure CLI: [quick start](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli), [tutorial](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm), `samples/scripts/az-vm.sh`
+    * With an IaC tool, such as Azure Resource Manager or Terraform
 
 ### RKE2 quickstart
 

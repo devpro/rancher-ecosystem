@@ -45,7 +45,8 @@ In V2 provisioning, clusters have [Machines](https://cluster-api.sigs.k8s.io/use
 
 #### Cluster templates
 
-> Cluster templates encompass both Kubernetes configuration and node pool configuration, allowing a single template to contain all the information Rancher needs to provision new nodes in a cloud provider and install Kubernetes on those nodes. (ref. [How-to Guides > New User Guides > Manage Clusters](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/manage-clusters/manage-cluster-templates))
+> Cluster templates encompass both Kubernetes configuration and node pool configuration, allowing a single template to contain all the information Rancher needs to provision new nodes in a cloud provider
+> and install Kubernetes on those nodes. (ref. [How-to Guides > New User Guides > Manage Clusters](https://ranchermanager.docs.rancher.com/how-to-guides/new-user-guides/manage-clusters/manage-cluster-templates))
 
 Currently (August 2023) examples are only provided for RKE2.
 
@@ -65,7 +66,8 @@ RKE1 cluster template exist but doesn't allow node pool configuration or RBAC.
 
 RKE2/K3s cluster creation uses [Povisioning V2](https://github.com/rancher/rancher/tree/release/v2.7/pkg/controllers/provisioningv2)
 
-Rancher uses the Cluster API controllers and CRDs internally. But it wraps its own Cluster and other CRDs around it to make it "easier to use" and maybe add additional features necessary for Rancher. Rancher then bundles its own RKE2 Cluster API provider, which uses the same docker machine drivers to create and delete VMs.
+Rancher uses the Cluster API controllers and CRDs internally. But it wraps its own Cluster and other CRDs around it to make it "easier to use" and maybe add additional features necessary for Rancher.
+Rancher then bundles its own RKE2 Cluster API provider, which uses the same docker machine drivers to create and delete VMs.
 
 When a Cluster (provisioning.cattle.io/v1) is created, various CAPI objects are generated: RKECluster, RKEControlPlane, Cluster, RKEBootstrapTemplate, MachineDeployment and infra specific kinds like Amazonec2MachineTemplate.
 

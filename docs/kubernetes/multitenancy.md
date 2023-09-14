@@ -50,7 +50,8 @@ See also:
 
 ### Kubeslice
 
-> KubeSlice enables Kubernetes pods and services to communicate seamlessly across clusters, clouds, edges, and data centers by creating logical application boundaries known as Slices. It combines network, application, and deployment services in a framework to accelerate application deployment in a multi-cluster, multi-tenant environment.
+> KubeSlice enables Kubernetes pods and services to communicate seamlessly across clusters, clouds, edges, and data centers by creating logical application boundaries known as Slices.
+> It combines network, application, and deployment services in a framework to accelerate application deployment in a multi-cluster, multi-tenant environment.
 
 → [kubeslice.io](https://kubeslice.io/), [GitHub Org](https://github.com/kubeslice)
 
@@ -66,7 +67,8 @@ See also:
 
 ### VirtualCLuster
 
-> VirtualCluster represents a new architecture to address various Kubernetes control plane isolation challenges. It extends existing namespace based Kubernetes multi-tenancy model by providing each tenant a cluster view. VirtualCluster completely leverages Kubernetes extendability and preserves full API compatibility. That being said, the core Kubernetes components are not modified in virtual cluster.
+> VirtualCluster represents a new architecture to address various Kubernetes control plane isolation challenges. It extends existing namespace based Kubernetes multi-tenancy model by providing each tenant a cluster view.
+> VirtualCluster completely leverages Kubernetes extendability and preserves full API compatibility. That being said, the core Kubernetes components are not modified in virtual cluster.
 
 → [code](https://github.com/kubernetes-sigs/cluster-api-provider-nested/tree/main/virtualcluster)
 

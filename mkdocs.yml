@@ -16,7 +16,7 @@ theme:
     - scheme: default
       primary: green
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
       primary: green
@@ -24,13 +24,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 markdown_extensions:
+  - admonition
   - attr_list
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 nav:
   - Home: index.md
   - Areas:

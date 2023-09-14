@@ -9,8 +9,8 @@
 ### Getting to know Fleet
 
 * Youtube videos
-  * [GitOps The Planet (E4) - GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
-  * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
+    * [GitOps The Planet (E4) - GitOps at Edge](https://www.youtube.com/watch?v=OPbgvBSAO9U) - January 4, 2023
+    * [Using Fleet to Manage Clusters at Scale](https://www.youtube.com/watch?v=8gXbxt3AjdE&t=723s) - November 21, 2020
 
 ### Install Fleet objects in your Kubernetes cluster
 
@@ -44,7 +44,7 @@ kubectl get fleet -n fleet-sample
 ## Configuration
 
 * [Git Repository Contents](https://fleet.rancher.io/gitrepo-content)
-  * [`fleet.yaml`](https://fleet.rancher.io/ref-fleet-yaml)
+    * [`fleet.yaml`](https://fleet.rancher.io/ref-fleet-yaml)
 
 ## Samples
 

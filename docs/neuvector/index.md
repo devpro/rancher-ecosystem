@@ -1,6 +1,7 @@
 # NeuVector
 
-> NeuVector delivers Full Lifecycle Container Security with the only cloud-native, Kubernetes security platform providing end-to-end vulnerability management, automated CI/CD pipeline security, and complete run-time security including the industry’s only container firewall to protect your infrastructure from zero days and insider threats.
+> NeuVector delivers Full Lifecycle Container Security with the only cloud-native, Kubernetes security platform providing end-to-end vulnerability management, automated CI/CD pipeline security,
+> and complete run-time security including the industry’s only container firewall to protect your infrastructure from zero days and insider threats.
 
 → [neuvector.com](https://neuvector.com/) ([docs](https://docs.neuvector.com/), [GitHub](https://github.com/neuvector/neuvector), [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf))
 
@@ -11,37 +12,37 @@
 ## Features
 
 * Automated _Behavioral-Based_ Zero-Trust modes
-  * Discover
-  * Monitor
-  * Protect
+    * Discover
+    * Monitor
+    * Protect
 
 * Continuously watches every packet
-  * Layer 3
-  * Layer 4
-  * Layer 7
+    * Layer 3
+    * Layer 4
+    * Layer 7
 
 * Network traffic to the source of truth
 
 * Security-as-Code for replicating Zero-Trust Segmentation
-  * [neuvector.com/videos](https://neuvector.com/videos/the-neuvector-minute-security-policy-as-code/)
+    * [neuvector.com/videos](https://neuvector.com/videos/the-neuvector-minute-security-policy-as-code/)
 
 * Protect data with Data Loss Prevention (DLP)
-  * [How to Protect Sensitive Data in Containers with Container DLP](https://blog.neuvector.com/article/protect-sensitive-data-with-container-dlp)
+    * [How to Protect Sensitive Data in Containers with Container DLP](https://blog.neuvector.com/article/protect-sensitive-data-with-container-dlp)
 
 * Service Mesh integration
-  * [How to Secure Containers in a Service Mesh such as Istio and Linkerd2](https://neuvector.com/videos/secure-containers-in-service-mesh-istio/)
+    * [How to Secure Containers in a Service Mesh such as Istio and Linkerd2](https://neuvector.com/videos/secure-containers-in-service-mesh-istio/)
 
 * Automation
-  * [REST API and Automation](https://open-docs.neuvector.com/automation/automation)
+    * [REST API and Automation](https://open-docs.neuvector.com/automation/automation)
 
 ## Trainings
 
 * NeuVector Rodeo
 
 * [NeuVector Youtube channel](https://www.youtube.com/channel/UCpAoVOdUS0i7T92cszeRVoQ)
-  * [NeuVector - 101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
-  * [NeuVector Minute - Installing NeuVector on Rancher](https://www.youtube.com/watch?v=cc8nA7nxuDc) - Nov 12, 2020
-  * [Zero-Trust Security for Kubernetes and Container Workloads](https://www.youtube.com/watch?v=SzNbJ7W3Mik) - March 29, 2022
+    * [NeuVector - 101 (Fall 2021)](https://www.youtube.com/watch?v=9ihaBr_QGzQ)
+    * [NeuVector Minute - Installing NeuVector on Rancher](https://www.youtube.com/watch?v=cc8nA7nxuDc) - Nov 12, 2020
+    * [Zero-Trust Security for Kubernetes and Container Workloads](https://www.youtube.com/watch?v=SzNbJ7W3Mik) - March 29, 2022
 
 ## Versions
 
@@ -67,8 +68,8 @@
 
 * In Rancher, from your cluster, go to Apps > Charts and look for NeuVector and click on Install
 * In Step 2 > Edit Options
-  * In Container Runtime, make sure you select the right runtime (containerd for instance with AKS)
-  * In Ingress Configuration, check the Manager Ingress Status box, fill Manager Ingress Host (neuvector.demo for example)
+    * In Container Runtime, make sure you select the right runtime (containerd for instance with AKS)
+    * In Ingress Configuration, check the Manager Ingress Status box, fill Manager Ingress Host (neuvector.demo for example)
 * In Step 2 > Edit YAML, edit the content to add ingressClassName
 
   ```bash
@@ -86,8 +87,8 @@
 
 * Click on Install and review the overall installation process
 * Once installed correctly (all pods running fine), go to Service Discovery > Ingresses
-  * In `cattle-neuvector-system` namespace, click on the target link
-  * Log in with admin/admin and update immediatly the password
+    * In `cattle-neuvector-system` namespace, click on the target link
+    * Log in with admin/admin and update immediatly the password
 
 ## Q&A
 
@@ -102,13 +103,15 @@ How much of a performance overhead is the enforcer? | This is documented in the 
 ## Known issues
 
 * Timeout while on the web interface
-  * Refresh the page and authenticate again
+    * Refresh the page and authenticate again
 
 ## Recipes
 
 ### How to scan control plane nodes
 
-By default, only worker nodes are scanned. You can change this by adapting the tolerations of the enforcer when installing NeuVector. The default can be seen in [values.yaml](https://github.com/neuvector/neuvector-helm/blob/master/charts/core/values.yaml) (enforcer / tolerations). Depending on the Kubernetes distribution, the taints may be different on non-worker nodes.
+By default, only worker nodes are scanned. You can change this by adapting the tolerations of the enforcer when installing NeuVector.
+The default can be seen in [values.yaml](https://github.com/neuvector/neuvector-helm/blob/master/charts/core/values.yaml) (enforcer / tolerations).
+Depending on the Kubernetes distribution, the taints may be different on non-worker nodes.
 
 To tolerate all possible taints, a config would be:
 

@@ -29,34 +29,34 @@ An _Account Key_ and a _Secret Key_ are needed to authenticate and manage the re
 ### Connect to a OSC VM
 
 * From OUTSCALE Web UI
-  * In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
-    * In "Security", add a rule to authorize SSH (port 22) from "My IP"
-    * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
+    * In "Compute" > "VMs" (Instances in cockpit V1), click on "Create"
+        * In "Security", add a rule to authorize SSH (port 22) from "My IP"
+        * Copy the public IP address, download the rsa file and log in with `ssh -i ~/.ssh/outscale_xxx.rsa <public_ip> -l outscale`
 
 ### Create a Kubernetes Rancher on OCS VMs from Rancher
 
 * From Rancher UI
-  * In "Cluster Management" > "Drivers" > "Node Drivers"
-    * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
-  * In "Cluster Management" > "Clusters"
-    * In "Create" form, select "RKE2/K3s", click on "outscale"
+    * In "Cluster Management" > "Drivers" > "Node Drivers"
+        * Select "Outscale" ([definition](https://github.com/rancher/rancher/blob/release/v2.7/pkg/data/management/machinedriver_data.go#L140)) and click on "Activate"
+    * In "Cluster Management" > "Clusters"
+        * In "Create" form, select "RKE2/K3s", click on "outscale"
 
 ### RKE2 creation from Rancher UI
 
 * Open Rancher
-  * In "Cluster Management", "Drivers", "Node Drivers", enable "Outscale"
-  * In "Cluster Management", "Cloud Credentials", click on "Create", select "Outscale", submit and fill the informations
-  * In "Cluster Management", "Clusters", click on "Create", select "outscale"
-    * Specify the "supportOmi" (check [Official OMIs Reference](https://docs.outscale.com/en/userguide/Official-OMIs-Reference.html))
-    * Set "tinav5.c3r4p1" as "instanceType" (check [Instance Types](https://docs.outscale.com/en/userguide/Instance-Types.html))
+    * In "Cluster Management", "Drivers", "Node Drivers", enable "Outscale"
+    * In "Cluster Management", "Cloud Credentials", click on "Create", select "Outscale", submit and fill the informations
+    * In "Cluster Management", "Clusters", click on "Create", select "outscale"
+        * Specify the "supportOmi" (check [Official OMIs Reference](https://docs.outscale.com/en/userguide/Official-OMIs-Reference.html))
+        * Set "tinav5.c3r4p1" as "instanceType" (check [Instance Types](https://docs.outscale.com/en/userguide/Instance-Types.html))
 
 ### RKE2 troubleshooting
 
 * Open Rancher
-  * In "Cluster Management", "Clusters", click on the cluster, in the Machine Pool line click on the menu and select "Download SSH Key"
+    * In "Cluster Management", "Clusters", click on the cluster, in the Machine Pool line click on the menu and select "Download SSH Key"
 
 * Open [new.cockpit.outscale.com](https://new.cockpit.outscale.com/)
-  * In "Compute", "VMs", in the VM line, copy the "Public IP" value
+    * In "Compute", "VMs", in the VM line, copy the "Public IP" value
 
 * Open a terminal
 
