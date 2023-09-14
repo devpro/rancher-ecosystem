@@ -37,6 +37,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Areas:
+    - areas/index.md
     - Edge: edge.md
     - GPUs: gpu.md
     - Kubernetes:
@@ -50,6 +51,7 @@ nav:
     - Security: security.md
     - Storage: storage.md
   - Products:
+    - products/index.md
     - Elemental: elemental.md
     - Fleet: fleet.md
     - Harvester: harvester.md
@@ -82,6 +84,7 @@ nav:
     - SLE Micro: sle-micro.md
     - SLES: sles.md
   - Providers:
+    - providers/index.md
     - 3DS Outscale: providers/3ds-outscale.md
     - AMD: providers/amd.md
     - Amazon AWS: providers/amazon-aws.md

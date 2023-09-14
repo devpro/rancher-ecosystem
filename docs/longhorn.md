@@ -2,7 +2,10 @@
 
 > Cloud native distributed block storage for Kubernetes
 
-→ [longhorn.io](https://longhorn.io), [docs](https://longhorn.io/docs/), [code](https://github.com/longhorn/longhorn)
+:octicons-cross-reference-24: **Links:**
+[:material-web: longhorn.io](https://longhorn.io/),
+[:fontawesome-solid-book: docs](https://longhorn.io/docs/),
+[:simple-github: repository](https://github.com/longhorn/longhorn)
 
 ## Features
 

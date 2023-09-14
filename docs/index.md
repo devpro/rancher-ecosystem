@@ -10,9 +10,9 @@ Let's learn together about SUSE Cloud Native solution, aka Rancher ecosystem!
 
 ## Sections
 
-[:material-image-area: Area](edge.md){ .md-button .md-button--primary }
-[:fontawesome-solid-cart-shopping: Products](elemental.md){ .md-button .md-button--primary }
-[:fontawesome-solid-cloud: Providers](providers/3ds-outscale.md){ .md-button .md-button--primary }
+[:material-image-area: Area](areas/index.md){ .md-button .md-button--primary }
+[:fontawesome-solid-cart-shopping: Products](products/index.md){ .md-button .md-button--primary }
+[:fontawesome-solid-cloud: Providers](providers/index.md){ .md-button .md-button--primary }
 
 ## Goodies
 

@@ -4,6 +4,10 @@
 
 → [kubewarden.io](https://www.kubewarden.io/), [GitHub](https://github.com/kubewarden)
 
+:octicons-cross-reference-24: **Links:**
+[:material-web: kubewarden.io](https://www.kubewarden.io/),
+[:simple-github: organization](https://github.com/kubewarden)
+
 ## Presentations
 
 * [Global Online Meetup](https://www.crowdcast.io/e/gomu_rancher_kubewarden_01182023/1) - February 15th, 2023
