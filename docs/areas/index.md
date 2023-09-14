@@ -1,11 +1,11 @@
 # Areas
 
-[Edge](../edge.md){ .md-button .md-button--primary }
-[GPUs](../gpu.md){ .md-button .md-button--primary }
-[Kubernetes](../kubernetes/distributions.md){ .md-button .md-button--primary }
+[Edge](../edge.md){ .md-button }
+[GPUs](../gpu.md){ .md-button }
+[Kubernetes](../kubernetes/distributions.md){ .md-button }
 
-[Networking](../networking.md){ .md-button .md-button--primary }
-[Observability](../observability.md){ .md-button .md-button--primary }
-[Security](../security.md){ .md-button .md-button--primary }
+[Networking](../networking.md){ .md-button }
+[Observability](../observability.md){ .md-button }
+[Security](../security.md){ .md-button }
 
-[Storage](../security.md){ .md-button .md-button--primary }
+[Storage](../security.md){ .md-button }
