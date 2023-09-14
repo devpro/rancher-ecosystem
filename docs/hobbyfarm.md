@@ -2,7 +2,11 @@
 
 > Hobbyfarm is an interactive coding platform that runs in the browser
 
-→ [hobbyfarm.github.io](https://hobbyfarm.github.io/hobbyfarm/) ([GitHub org](https://github.com/hobbyfarm), [docs](https://hobbyfarm.github.io/), [issues](https://github.com/hobbyfarm/hobbyfarm/issues))
+:octicons-cross-reference-24: **Links:**
+[:material-web: hobbyfarm.github.io](https://hobbyfarm.github.io/hobbyfarm/),
+[:fontawesome-solid-book: docs](https://hobbyfarm.github.io/),
+[:simple-github: organization](https://github.com/hobbyfarm),
+[:octicons-issue-opened-16: issues](https://github.com/hobbyfarm/hobbyfarm/issues)
 
 ## Software design
 

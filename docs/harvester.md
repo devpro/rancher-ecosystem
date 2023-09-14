@@ -2,7 +2,10 @@
 
 > The open source hyperconverged infrastructure (HCI) solution for a cloud native world
 
-→ [harvesterhci.io](https://harvesterhci.io/), [docs](https://docs.harvesterhci.io/), [GitHub](https://github.com/harvester/harvester)
+:octicons-cross-reference-24: **Links:**
+[:material-web: harvesterhci.io](https://harvesterhci.io/),
+[:fontawesome-solid-book: docs](https://docs.harvesterhci.io/),
+[:simple-github: repository](https://github.com/harvester/harvester)
 
 ## Commercial offer
 

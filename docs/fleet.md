@@ -2,7 +2,9 @@
 
 > Fleet is a container management and deployment engine designed to offer users more control on the local cluster and constant monitoring through GitOps
 
-→ [fleet.rancher.io](https://fleet.rancher.io/), [code](https://github.com/rancher/fleet)
+:octicons-cross-reference-24: **Links:**
+[:material-web: fleet.rancher.io](https://fleet.rancher.io/),
+[:simple-github: repository](https://github.com/rancher/fleet)
 
 ## Quick start
 

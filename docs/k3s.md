@@ -2,7 +2,10 @@
 
 > The lightweight certified Kubernetes distribution built for IoT & Edge computing
 
-→ [k3s.io](https://k3s.io/), [docs](https://rancher.com/docs/k3s/latest/en/), [GitHub](https://github.com/k3s-io/k3s)
+:octicons-cross-reference-24: **Links:**
+[:material-web: k3s.io](https://k3s.io/),
+[:fontawesome-solid-book: docs](https://rancher.com/docs/k3s/latest/en/),
+[:simple-github: repository](https://github.com/k3s-io/k3s)
 
 ## Components
 

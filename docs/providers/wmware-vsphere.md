@@ -1,6 +1,7 @@
 # VMware vSphere
 
-🛈 [vSphere](https://www.vmware.com/products/vsphere.html) is VMware's "Enterprise Workload Platform". It is a virtualization platform, that includes vCenter Configuration Manager, vCenter Application Discovery Manager and vMotion
+:octicons-light-bulb-16: **Info:** [vSphere](https://www.vmware.com/products/vsphere.html) is VMware's "Enterprise Workload Platform".
+It is a virtualization platform, that includes vCenter Configuration Manager, vCenter Application Discovery Manager and vMotion.
 
 ## Usecases
 

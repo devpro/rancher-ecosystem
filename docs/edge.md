@@ -2,7 +2,8 @@
 
 > SUSE Edge solutions deliver consistency, performance, reliability, security and the highest standards of support – all of which are vitally important elements in edge computing environments.
 
-→ [suse.com](https://www.suse.com/solutions/edge-computing/)
+:octicons-cross-reference-24: **Links:**
+[:material-web: suse.com](https://www.suse.com/solutions/edge-computing/)
 
 ## Components
 

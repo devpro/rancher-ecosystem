@@ -2,7 +2,9 @@
 
 > Elemental is a software stack enabling a centralized, full cloud-native OS management with Kubernetes.
 
-→ [docs](https://rancher.github.io/elemental/), [GitHub](https://github.com/rancher/elemental)
+:octicons-cross-reference-24: **Links:**
+[:fontawesome-solid-book: docs](https://elemental.docs.rancher.com/),
+[:simple-github: repository](https://github.com/rancher/elemental)
 
 ## Design
 
