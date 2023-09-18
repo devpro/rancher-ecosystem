@@ -2,7 +2,16 @@
 
 ## 2.7
 
+### 2.7.6
+
+Release date | 2023-07-31
+------------ | ----------
+Release note | [github.com](https://github.com/rancher/rancher/releases/tag/v2.7.6)
+Annoucement  | [forums.rancher.com](https://forums.rancher.com/t/rancher-release-v2-7-6/41410)
+
 ### 2.7.5
+
+:warning: Skip upgrading to 2.7.5 and immediately upgrade to 2.7.6
 
 Release date | 2023-06-29
 ------------ | ----------

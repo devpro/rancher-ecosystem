@@ -2,7 +2,8 @@
 
 ## Solutions
 
-> Multi-tenancy is a Kubernetes cluster model or architecture model in which a single cluster’s resources are shared among multiple tenants. Examples of the shared cluster resources include CPU, memory, networking, and control plane resources. ([ContainIQ](https://www.containiq.com/post/kubernetes-multi-tenancy))
+> Multi-tenancy is a Kubernetes cluster model or architecture model in which a single cluster’s resources are shared among multiple tenants.
+Examples of the shared cluster resources include CPU, memory, networking, and control plane resources. ([ContainIQ](https://www.containiq.com/post/kubernetes-multi-tenancy))
 
 ### CAPN
 
