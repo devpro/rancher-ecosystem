@@ -3,7 +3,7 @@
 ## Cloud providers
 
 [AWS (Amazon)](amazon-aws.md){ .md-button }
-[Azure (Azure)](google-gcp.md){ .md-button }
+[Azure (Azure)](microsoft-azure.md){ .md-button }
 [GCP (Google)](google-gcp.md){ .md-button }
 
 [Nutanix](nutanix.md){ .md-button }
