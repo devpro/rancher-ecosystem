@@ -74,6 +74,7 @@ nav:
       - Migrations: rancher/migrations.md
       - Operations: rancher/operations.md
       - Provisioning: rancher/provisioning.md
+      - Training: rancher/training.md
       - Versions: rancher/versions.md
     - Rancher Desktop: rancher-desktop.md
     - RKE: rke.md

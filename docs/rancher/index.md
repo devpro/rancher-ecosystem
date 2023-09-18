@@ -16,6 +16,7 @@
 * [Migrations](migrations.md)
 * [Operations](operations.md)
 * [Provisioning](provisioning.md)
+* [Training](training.md)
 
 ## Releases
 
