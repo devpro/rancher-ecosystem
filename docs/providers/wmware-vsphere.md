@@ -20,6 +20,7 @@ It is a virtualization platform, that includes vCenter Configuration Manager, vC
 * [Creating a vSphere Cluster](https://rancher.com/docs/rancher/v2.6/en/cluster-provisioning/rke-clusters/node-pools/vsphere/)
 * [Rancher, vSphere Network Protocol Profiles and static IP addresses for k8s nodes](https://www.virtualthoughts.co.uk/2020/03/29/rancher-vsphere-network-protocol-profiles-and-static-ip-addresses-for-k8s-nodes/) - March 29, 2020
 * [Using cloud-init for VM templating on vSphere](https://blah.cloud/infrastructure/using-cloud-init-for-vm-templating-on-vsphere/) - June 9, 2019
+* [frank-at-suse/vsphere_HA_autoscale_cluster](https://github.com/frank-at-suse/vsphere_HA_autoscale_cluster)
 
 ## References
 
