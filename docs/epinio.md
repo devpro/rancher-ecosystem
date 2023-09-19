@@ -32,15 +32,32 @@ Epinio is Cloud Native, free, open-source, simple solution that runs in a Kubern
 
 ### Application examples
 
-* [mageran/minio-epinio](https://github.com/mageran/minio-epinio/tree/main/samples/photo-album): Python with Flask and Boto3 for the backend and Svelte for the UI
-* [epinio/example-rails](https://github.com/epinio/example-rails): Ruby on Rails
+Language/Framework | Path                                                                                            | Details
+-------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------------
+.NET               | [devpro/epinio-samples](https://github.com/devpro/epinio-samples/tree/main/samples/dotnet)      | ASP.NET 7 Web API (REST)
+Go                 | [epinio/golang-sample-app](https://github.com/epinio/epinio/tree/main/assets/golang-sample-app) |
+JavaScript         | [ellisonleao/clumsy-bird](https://github.com/ellisonleao/clumsy-bird)                           | melonJS game engine
+PHP                | [epinio/sample-app](https://github.com/epinio/epinio/tree/main/assets/sample-app)               | phpinfo
+Python             | [mageran/minio-epinio](https://github.com/mageran/minio-epinio/tree/main/samples/photo-album)   | Flask and Boto3 for the backend and Svelte for the UI
+Ruby on Rails      | [epinio/example-rails](https://github.com/epinio/example-rails)                                 |
 
-### CLI cheat sheet
+### CLI
 
-Command                                       | Action
-----------------------------------------------|--------------------------------
-`epinio push --name sample --path sample-app` | Create or update an application
-`epinio app delete sample`                    | Delete an application
+#### CLI cheat sheet
+
+Command                                        | Action
+-----------------------------------------------|----------------------------------------------------
+`epinio app delete sample`                     | Delete an application
+`epinio login -u admin 'https://<epinio_url>'` | Log in Epinio server
+`epinio push --name sample --path sample-app`  | Create or update an application from a local folder
+`epinio settings show`                         | Display Epinio server information
+
+#### CLI examples
+
+```bash
+# creates an application from a remote git repository on a branch
+epinio push --name dotnetapisample --git-provider github --git https://github.com/devpro/epinio-samples,feature/init-solution
+```
 
 ### Helm chart
 
