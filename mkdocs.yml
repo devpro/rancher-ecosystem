@@ -51,6 +51,7 @@ nav:
   - Products:
     - products/index.md
     - Elemental: elemental.md
+    - Epinio: epinio.md
     - Fleet: fleet.md
     - Harvester: harvester.md
     - HobbyFarm: hobbyfarm.md

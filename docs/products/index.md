@@ -4,6 +4,10 @@ All this projects are open-source and managed by SUSE.
 
 ## Cloud Native components
 
+### Application platforms
+
+[Epinio](../epinio.md){ .md-button }
+
 ### GitOps
 
 [Fleet](../fleet.md){ .md-button }
