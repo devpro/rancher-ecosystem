@@ -17,7 +17,7 @@ Epinio is Cloud Native, free, open-source, simple solution that runs in a Kubern
 
 ### Quick start
 
-!!! tip inline end "Tip"
+!!! tip
 
     Use short name for the application name (less than 22) and do not use `-` to avoid Ingress issue (see [application name restrictions](#application-name-restrictions)).
 
@@ -36,7 +36,7 @@ Epinio is Cloud Native, free, open-source, simple solution that runs in a Kubern
 
 ### Application examples
 
-!!! tip inline end "Tip"
+!!! tip
 
     Delete local files before pushing the application if done from a developer workstation (see [local files restriction](#local-files-restriction)).
 
