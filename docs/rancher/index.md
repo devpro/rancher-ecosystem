@@ -2,7 +2,10 @@
 
 > Rancher is a Kubernetes management tool to deploy and run clusters anywhere and on any provider
 
-→ [rancher.com](https://www.rancher.com), [docs](https://ranchermanager.docs.rancher.com)
+:octicons-cross-reference-24: **Links:**
+[:material-web: rancher.com](https://www.rancher.com),
+[:fontawesome-solid-book: docs](https://ranchermanager.docs.rancher.com),
+[:simple-github: repository](https://github.com/rancher/rancher)
 
 ## Content
 
@@ -22,7 +25,7 @@
 
 Version                                                             | Date       | Links
 --------------------------------------------------------------------|------------|--------------------------------------------------------------------
-[**2.7.5**](https://github.com/rancher/rancher/releases/tag/v2.7.5) | 2023-06-29 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-5/40993)
+[**2.7.5**](https://github.com/rancher/rancher/releases/tag/v2.7.6) | 2023-07-31 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-6/41410)
 [**2.7.0**](https://github.com/rancher/rancher/releases/tag/v2.7.0) | 2022-11-16 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-7-0/39478)
 [**2.6.0**](https://github.com/rancher/rancher/releases/tag/v2.6.0) | 2021-08-31 | [Annoucement](https://forums.rancher.com/t/rancher-release-v2-6-0/21048)
 

@@ -3,7 +3,10 @@
 > NeuVector delivers Full Lifecycle Container Security with the only cloud-native, Kubernetes security platform providing end-to-end vulnerability management, automated CI/CD pipeline security,
 > and complete run-time security including the industry’s only container firewall to protect your infrastructure from zero days and insider threats.
 
-→ [neuvector.com](https://neuvector.com/) ([docs](https://docs.neuvector.com/), [GitHub](https://github.com/neuvector/neuvector), [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf))
+:octicons-cross-reference-24: **Links:**
+[:material-web: neuvector.com](https://neuvector.com/),
+[:fontawesome-solid-book: docs](https://docs.neuvector.com/),
+[:simple-github: repository](https://github.com/neuvector/neuvector)
 
 ## Content
 
@@ -108,6 +111,7 @@ How much of a performance overhead is the enforcer? | This is documented in the 
 ## Articles
 
 * [Enhancing Kubernetes Application Security with NeuVector](https://www.infracloud.io/blogs/secure-container-images-using-neuvector/) - September 15th, 2023
+* [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf)
 
 ## Recipes
 
