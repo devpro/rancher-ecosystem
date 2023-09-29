@@ -1,42 +1,48 @@
 # Google Cloud Platform (GCP)
 
-Launched in April, 2008.
+!!! info
 
-## Concepts
+    Launched in April, 2008.
 
-### Marketplace
+## Getting started
 
-[console.cloud.google.com/marketplace](https://console.cloud.google.com/marketplace)
+### Quick start
 
-### Virtual Private Cloud (VPC)
+Go to [console.cloud.google.com](https://console.cloud.google.com/) to reach the web console (portal) and start your experience with GCP.
+
+Build your learning path from official resources:
+
+* [Cloud Architecture Center](https://cloud.google.com/architecture)
+* [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+
+Keep up-to-date with [Google Cloud Podcast](https://cloud.google.com/podcasts/gcp-podcast)
+
+### Concepts
+
+* [Marketplace](https://console.cloud.google.com/marketplace)
+* [Virtual Private Cloud (VPC)](https://cloud.google.com/vpc)
 
 ## Products
 
-[The interactive Google Cloud Developer's Cheat Sheet](https://googlecloudcheatsheet.withgoogle.com/)
+!!! tip
+
+  You can use the [interactive cheat sheet](https://googlecloudcheatsheet.withgoogle.com/) and the [Google Cloud solutions page](https://cloud.google.com/solutions) to navigate in the GCP product offering.
 
 ### Application Life Management (ALM)
 
-#### Artifact Registry
-
-[cloud.google.com/artifact-registry](https://cloud.google.com/artifact-registry)
-
-[Artifact Analysis](https://cloud.google.com/artifact-analysis/docs)
-
-#### Skaffold
-
-[skaffold.dev](https://skaffold.dev/), [GitHub repository](https://github.com/GoogleContainerTools/skaffold) [cloud.google.com/skaffold](https://cloud.google.com/skaffold)
+* [Artifact Registry](https://cloud.google.com/artifact-registry)
+    * [Artifact Analysis](https://cloud.google.com/artifact-analysis/docs)
+* [Cloud Deploy](https://cloud.google.com/deploy)
+    * [Skaffold](google-skaffold.md)
 
 ### Compute
 
-#### Compute Engine
-
-#### Google Kubernetes Engine
-
-[cloud.google.com/kubernetes-engine](https://cloud.google.com/kubernetes-engine)
+* Compute Engine
+* [Kubernetes Engine](google-gke.md)
 
 ### Storage
 
-#### Cloud Storage
+* Cloud Storage
 
 ### Smart Analytics
 
@@ -44,16 +50,14 @@ Launched in April, 2008.
 
 ### Security
 
-#### Security Command Center
-
-[cloud.google.com/security-command-center](https://cloud.google.com/security-command-center)
+* [Security Command Center](https://cloud.google.com/security-command-center)
 
 ### Platforms
 
-#### Anthos
-
-[cloud.google.com/anthos](https://cloud.google.com/anthos/)
+* [Anthos](google-anthos.md)
 
 ## Training
 
-* [A Cloud Guru - GCP Architecture](https://learn.acloud.guru/learning-path/gcp-architecture)
+### A Cloud Guru
+
+* [GCP Architecture Learning Path](https://learn.acloud.guru/learning-path/gcp-architecture)

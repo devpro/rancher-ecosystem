@@ -87,11 +87,18 @@ nav:
     - SLES: sles.md
   - Providers:
     - providers/index.md
-    - 3DS Outscale: providers/3ds-outscale.md
+    - Amazon:
+      - AWS: providers/amazon-aws.md
     - AMD: providers/amd.md
-    - Amazon AWS: providers/amazon-aws.md
-    - Google GCP: providers/google-gcp.md
-    - Microsoft Azure: providers/microsoft-azure.md
+    - Microsoft:
+      - Azure: providers/microsoft-azure.md
+    - Google:
+      - Anthos: providers/google-anthos.md
+      - GCP: providers/google-gcp.md
+      - GKE: providers/google-gke.md
+      - Skaffold: providers/google-skaffold.md
     - Nutanix: providers/nutanix.md
     - NVIDIA: providers/nvidia.md
-    - VMware vSphere: providers/wmware-vsphere.md
+    - Outscale: providers/3ds-outscale.md
+    - VMware:
+      - Sphere: providers/wmware-vsphere.md
