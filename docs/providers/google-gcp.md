@@ -26,7 +26,7 @@ Keep up-to-date with [Google Cloud Podcast](https://cloud.google.com/podcasts/gc
 
 !!! tip
 
-  You can use the [interactive cheat sheet](https://googlecloudcheatsheet.withgoogle.com/) and the [Google Cloud solutions page](https://cloud.google.com/solutions) to navigate in the GCP product offering.
+    You can use the [interactive cheat sheet](https://googlecloudcheatsheet.withgoogle.com/) and the [Google Cloud solutions page](https://cloud.google.com/solutions) to navigate in the GCP product offering.
 
 ### Application Life Management (ALM)
 
