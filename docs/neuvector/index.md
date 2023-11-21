@@ -113,6 +113,10 @@ How much of a performance overhead is the enforcer? | This is documented in the 
 * [Enhancing Kubernetes Application Security with NeuVector](https://www.infracloud.io/blogs/secure-container-images-using-neuvector/) - September 15th, 2023
 * [FAQ](https://neuvector.com/wp-content/uploads/2019/05/NeuVector-Customer-FAQ.pdf)
 
+## Alternatives
+
+* [tetragon](https://tetragon.io/) ([playground](https://labs.iximiuz.com/playgrounds/tetragon))
+
 ## Recipes
 
 ### How to scan control plane nodes

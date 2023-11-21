@@ -19,8 +19,8 @@ Keep up-to-date with [Google Cloud Podcast](https://cloud.google.com/podcasts/gc
 
 ### Concepts
 
-* [Marketplace](https://console.cloud.google.com/marketplace)
-* [Virtual Private Cloud (VPC)](https://cloud.google.com/vpc)
+* [Marketplace](https://console.cloud.google.com/marketplace) lets you quickly deploy software on Google Cloud
+* [Virtual Private Cloud (VPC)](https://cloud.google.com/vpc) is a global virtual network that spans all regions. Single VPC for an entire organization, isolated within projects. Increase IP space with no downtime.
 
 ## Products
 
