@@ -1,13 +1,33 @@
 # Rancher versions
 
+## 2.8
+
+### 2.8.1
+
+Release date | 2024-12-31
+-------------|--------------------------------------------------------------------------------
+Release note | [github.com](https://github.com/rancher/rancher/releases/tag/v2.8.1)
+Annoucement  | [forums.rancher.com](https://forums.rancher.com/t/rancher-release-v2-8-1/42468)
+
+### 2.8.0
+
+Release date | 2023-12-06
+-------------|--------------------------------------------------------------------------------
+Release note | [github.com](https://github.com/rancher/rancher/releases/tag/v2.8.0)
+Annoucement  | [forums.rancher.com](https://forums.rancher.com/t/rancher-release-v2-8-0/42098)
+
+Articles:
+
+* [Building a Custom Read-only Global Role with the Rancher Kubernetes API](https://www.suse.com/c/rancher_blog/building-a-custom-read-only-global-role-with-the-rancher-kubernetes-api/) - January 9, 2024
+
 ## 2.7
 
-### 2.7.7
+### 2.7.9
 
-Release date |
+Release date | 2023-11-02
 -------------|--------------------------------------------------------------------------------
-Release note | [github.com](https://github.com/rancher/rancher/releases/tag/v2.7.7)
-Annoucement  |
+Release note | [github.com](https://github.com/rancher/rancher/releases/tag/v2.7.9)
+Annoucement  | [forums.rancher.com](https://forums.rancher.com/t/rancher-release-v2-7-9/41872)
 
 ### 2.7.6
 
