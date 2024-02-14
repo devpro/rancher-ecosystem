@@ -49,6 +49,10 @@
 
 ## Versions
 
+### v5.3.0
+
+* [Enhancing Network Security and Automation](https://www.suse.com/c/neuvector-releases-v-5-3-0-enhancing-network-security-and-automation/)
+
 ### v5
 
 * New scanning targets
