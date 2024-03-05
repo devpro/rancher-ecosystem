@@ -6,7 +6,9 @@ Available in Rancher, in the menu for a Cluster, with the "Apps" link.
 
 ### Official charts
 
-* Repository for Rancher 2.7: [rancher/charts](https://github.com/rancher/charts/tree/release-v2.7/charts)
+* Helm chart codebase for Rancher 2.8: [rancher/charts](https://github.com/rancher/charts/tree/release-v2.8/charts)
+
+* Helm chart repository for Rancher Prime: [charts.rancher.com/server-charts/prime](https://charts.rancher.com/server-charts/prime)
 
 * Helm CLI
 
