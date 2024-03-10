@@ -12,7 +12,7 @@
 * [LongHorn](longhorn.md)
 * [NeuVector](neuvector/index.md)
 * [Rancher](rancher/index.md)
-* [SLE micro](sle-micro.md)
+* [SLE micro](https://github.com/devpro/information-technology-guide/blob/main/docs/companies/suse/sle-micro.md)
 
 ## Ecosystem
 
