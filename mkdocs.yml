@@ -83,7 +83,6 @@ nav:
     - RKE: rke.md
     - RKE2: rke2.md
     - s3gw: s3gw.md
-    - SLE Micro: sle-micro.md
     - SLES: sles.md
   - Providers:
     - providers/index.md
