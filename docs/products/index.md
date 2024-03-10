@@ -58,5 +58,5 @@ All this projects are open-source and managed by SUSE.
 ## Linux distributions
 
 [openSUSE](../opensuse.md){ .md-button }
-[SLE Micro](../sle-micro.md){ .md-button }
+[SLE Micro](https://github.com/devpro/information-technology-guide/blob/main/docs/companies/suse/sle-micro.md){ .md-button }
 [SLES](../sles.md){ .md-button }
